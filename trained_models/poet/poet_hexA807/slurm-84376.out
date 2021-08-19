@@ -1,0 +1,3527 @@
+INFO:__main__:Namespace(adjust_interval=5, batch_size=1, batches_per_chunk=256, checkpointing=False, envs=['stump', 'pit', 'roughness'], eval_batch_size=1, eval_batches_per_step=5, init='random', l2_coeff=0.01, learning_rate=0.01, log_file='/home/TUE/20191160/logs/poet_hexA807', lr_decay=0.9999, lr_limit=0.001, master_seed=24582922, max_num_envs=40, mc_lower=500, mc_upper=3000, n_iterations=60000, noise_decay=0.999, noise_limit=0.01, noise_std=0.02, normalize_grads_by_noise_std=True, num_workers=10, propose_with_adam=True, repro_threshold=1400, returns_normalization='centered_ranks', start_from=None, steps_before_transfer=15, stochastic=False)
+INFO:poet_distributed.noise:Sampling 250000000 random numbers with seed 42
+INFO:poet_distributed.noise:Sampled 1000000000 bytes
+loaded file /home/TUE/20191160/ant_poet/poet_hexA11.7fc55c4e-3c25-40df-943a-e0be4de8c691.best.json
+INFO:poet_distributed.logger:Creating data logger at /home/TUE/20191160/logs/poet_hexA807/poet_hexA807.flat.log
+INFO:poet_distributed.es:Optimizer flat created!
+INFO:poet_distributed.noise:Sampling 250000000 random numbers with seed 42
+INFO:poet_distributed.noise:Sampling 250000000 random numbers with seed 42
+INFO:poet_distributed.noise:Sampling 250000000 random numbers with seed 42
+INFO:poet_distributed.noise:Sampling 250000000 random numbers with seed 42
+INFO:poet_distributed.noise:Sampling 250000000 random numbers with seed 42
+INFO:poet_distributed.noise:Sampling 250000000 random numbers with seed 42
+INFO:poet_distributed.noise:Sampling 250000000 random numbers with seed 42
+INFO:poet_distributed.noise:Sampling 250000000 random numbers with seed 42
+INFO:poet_distributed.noise:Sampling 250000000 random numbers with seed 42
+INFO:poet_distributed.noise:Sampling 250000000 random numbers with seed 42
+INFO:poet_distributed.noise:Sampled 1000000000 bytes
+INFO:poet_distributed.noise:Sampled 1000000000 bytes
+INFO:poet_distributed.noise:Sampled 1000000000 bytes
+INFO:poet_distributed.noise:Sampled 1000000000 bytes
+INFO:poet_distributed.noise:Sampled 1000000000 bytes
+INFO:poet_distributed.noise:Sampled 1000000000 bytes
+INFO:poet_distributed.noise:Sampled 1000000000 bytes
+INFO:poet_distributed.noise:Sampled 1000000000 bytes
+INFO:poet_distributed.noise:Sampled 1000000000 bytes
+INFO:poet_distributed.noise:Sampled 1000000000 bytes
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=0 Optimizer flat theta_mean -68.21135441738639 best po -14.828432591012035 iteration spent 0
+INFO:poet_distributed.logger:{'accept_theta_in_flat': 'self',
+ 'episodes_so_far_flat': 256,
+ 'episodes_this_step_flat': 256,
+ 'eval_len_mean_flat': 1999.0,
+ 'eval_len_std_flat': 0.0,
+ 'eval_n_episodes_flat': 5,
+ 'eval_returns_mean_best_in_flat': None,
+ 'eval_returns_mean_best_with_ckpt_in_flat': None,
+ 'eval_returns_mean_flat': -68.21135441738639,
+ 'eval_returns_mean_proposal_from_others_in_flat': None,
+ 'eval_returns_mean_theta_from_others_in_flat': None,
+ 'eval_returns_median_flat': -68.21135441924952,
+ 'eval_returns_std_flat': 4.0513526167666186e-09,
+ 'grad_norm_flat': 2005.4852294921875,
+ 'iteration': 0,
+ 'learning_rate_flat': 0.009999000000000001,
+ 'noise_std_flat': 0.01998,
+ 'po_len_mean_flat': 1998.9296875,
+ 'po_len_std_flat': 1.589435796861185,
+ 'po_returns_max_flat': -14.828432591012035,
+ 'po_returns_mean_flat': -5684.905338504706,
+ 'po_returns_median_flat': -3357.5217259273795,
+ 'po_returns_min_flat': -11762.065274325629,
+ 'po_returns_std_flat': 4369.668979246821,
+ 'theta_norm_flat': 44.71402383815454,
+ 'time_elapsed_so_far': 1500.799639225006,
+ 'time_elapsed_this_step_flat': 1500.7873549461365,
+ 'timesteps_so_far_flat': 1023452,
+ 'timesteps_this_step_flat': 1023452,
+ 'update_ratio_flat': 0.10104477726274538}
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=1 Optimizer flat theta_mean -91.14130466861108 best po 32.838437098756685 iteration spent 1
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=2 Optimizer flat theta_mean -54.6665699834502 best po 87.0048194653536 iteration spent 2
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=3 Optimizer flat theta_mean 56.31248791068439 best po 107.8368180501668 iteration spent 3
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=4 Optimizer flat theta_mean 100.89676682093898 best po 151.36581626161035 iteration spent 4
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=5 Optimizer flat theta_mean 164.16142832847228 best po 211.2804379965024 iteration spent 5
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=6 Optimizer flat theta_mean 210.93809687060474 best po 256.1463129699621 iteration spent 6
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=7 Optimizer flat theta_mean 217.18138353256737 best po 299.7579335188747 iteration spent 7
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=8 Optimizer flat theta_mean 218.13220745976 best po 287.4816499040255 iteration spent 8
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=9 Optimizer flat theta_mean 230.19172805404855 best po 303.5433424571794 iteration spent 9
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=10 Optimizer flat theta_mean 246.22717101807694 best po 349.1235935239747 iteration spent 10
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=11 Optimizer flat theta_mean 284.75324293214055 best po 330.12023925785695 iteration spent 11
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=12 Optimizer flat theta_mean 281.14150946810287 best po 375.00355423006437 iteration spent 12
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=13 Optimizer flat theta_mean 331.08027832659593 best po 368.69991687663395 iteration spent 13
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=14 Optimizer flat theta_mean 372.82271606908273 best po 366.9785515300016 iteration spent 14
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=15 Optimizer flat theta_mean 401.36146263954754 best po 420.28877077943673 iteration spent 15
+INFO:poet_distributed.logger:{'accept_theta_in_flat': 'self',
+ 'episodes_so_far_flat': 4096,
+ 'episodes_this_step_flat': 256,
+ 'eval_len_mean_flat': 1999.0,
+ 'eval_len_std_flat': 0.0,
+ 'eval_n_episodes_flat': 5,
+ 'eval_returns_mean_best_in_flat': None,
+ 'eval_returns_mean_best_with_ckpt_in_flat': None,
+ 'eval_returns_mean_flat': 401.36146263954754,
+ 'eval_returns_mean_proposal_from_others_in_flat': None,
+ 'eval_returns_mean_theta_from_others_in_flat': None,
+ 'eval_returns_median_flat': 401.36146263954754,
+ 'eval_returns_std_flat': 0.0,
+ 'grad_norm_flat': 7253.98046875,
+ 'iteration': 15,
+ 'learning_rate_flat': 0.00998401199440182,
+ 'noise_std_flat': 0.0196823888363128,
+ 'po_len_mean_flat': 1999.0,
+ 'po_len_std_flat': 0.0,
+ 'po_returns_max_flat': 420.28877077943673,
+ 'po_returns_mean_flat': 218.40288611404344,
+ 'po_returns_median_flat': 250.77919138652987,
+ 'po_returns_min_flat': -1527.6301598313762,
+ 'po_returns_std_flat': 184.5886060262385,
+ 'theta_norm_flat': 53.16513076725573,
+ 'time_elapsed_so_far': 3022.891518354416,
+ 'time_elapsed_this_step_flat': 101.88421297073364,
+ 'timesteps_so_far_flat': 16375772,
+ 'timesteps_this_step_flat': 1023488,
+ 'update_ratio_flat': 0.026202876203011764}
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=16 Optimizer flat theta_mean 395.05995885645007 best po 420.019089012812 iteration spent 16
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=17 Optimizer flat theta_mean 373.90736345102954 best po 463.006200826438 iteration spent 17
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=18 Optimizer flat theta_mean 436.186491367666 best po 528.8656381255755 iteration spent 18
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=19 Optimizer flat theta_mean 474.15973635860985 best po 510.80363673204005 iteration spent 19
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=20 Optimizer flat theta_mean 525.3496165250529 best po 553.167386879297 iteration spent 20
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=21 Optimizer flat theta_mean 517.212097799955 best po 535.0666540900096 iteration spent 21
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=22 Optimizer flat theta_mean 501.4711421247961 best po 564.865156172895 iteration spent 22
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=23 Optimizer flat theta_mean 529.1292602976356 best po 570.3999481504195 iteration spent 23
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=24 Optimizer flat theta_mean 559.4580076497548 best po 578.9812578260535 iteration spent 24
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=25 Optimizer flat theta_mean 564.1719785241346 best po 636.5297752191505 iteration spent 25
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=26 Optimizer flat theta_mean 572.5822445440142 best po 657.4633362156854 iteration spent 26
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=27 Optimizer flat theta_mean 567.472625621442 best po 634.3682283428003 iteration spent 27
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=28 Optimizer flat theta_mean 539.7330262842494 best po 638.7752572607442 iteration spent 28
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=29 Optimizer flat theta_mean 650.9012338304059 best po 668.3751098825911 iteration spent 29
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=30 Optimizer flat theta_mean 675.1877540101603 best po 698.9281232175616 iteration spent 30
+INFO:poet_distributed.logger:{'accept_theta_in_flat': 'self',
+ 'episodes_so_far_flat': 7936,
+ 'episodes_this_step_flat': 256,
+ 'eval_len_mean_flat': 1999.0,
+ 'eval_len_std_flat': 0.0,
+ 'eval_n_episodes_flat': 5,
+ 'eval_returns_mean_best_in_flat': None,
+ 'eval_returns_mean_best_with_ckpt_in_flat': None,
+ 'eval_returns_mean_flat': 675.1877540101603,
+ 'eval_returns_mean_proposal_from_others_in_flat': None,
+ 'eval_returns_mean_theta_from_others_in_flat': None,
+ 'eval_returns_median_flat': 675.1877540101603,
+ 'eval_returns_std_flat': 0.0,
+ 'grad_norm_flat': 6783.205078125,
+ 'iteration': 30,
+ 'learning_rate_flat': 0.009969046455081452,
+ 'noise_std_flat': 0.01938921072591645,
+ 'po_len_mean_flat': 1999.0,
+ 'po_len_std_flat': 0.0,
+ 'po_returns_max_flat': 698.9281232175616,
+ 'po_returns_mean_flat': 415.6611803876793,
+ 'po_returns_median_flat': 436.88321841656455,
+ 'po_returns_min_flat': -1524.2752547190112,
+ 'po_returns_std_flat': 171.5581808228515,
+ 'theta_norm_flat': 60.6664832212891,
+ 'time_elapsed_so_far': 4524.461941242218,
+ 'time_elapsed_this_step_flat': 98.42759871482849,
+ 'timesteps_so_far_flat': 31728092,
+ 'timesteps_this_step_flat': 1023488,
+ 'update_ratio_flat': 0.020134836801005376}
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=31 Optimizer flat theta_mean 713.4695353619646 best po 684.6721801202226 iteration spent 31
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=32 Optimizer flat theta_mean 761.3496341068428 best po 751.6554001921228 iteration spent 32
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=33 Optimizer flat theta_mean 758.9160195260752 best po 756.6313767308311 iteration spent 33
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=34 Optimizer flat theta_mean 729.8259027009193 best po 811.1484299297457 iteration spent 34
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=35 Optimizer flat theta_mean 711.6976007963178 best po 790.1253803857965 iteration spent 35
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=36 Optimizer flat theta_mean 713.513421599565 best po 804.3072032088911 iteration spent 36
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=37 Optimizer flat theta_mean 729.6793012641822 best po 813.063253509059 iteration spent 37
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=38 Optimizer flat theta_mean 774.1565144407698 best po 810.2303166411276 iteration spent 38
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=39 Optimizer flat theta_mean 747.6125447615559 best po 817.8936322017638 iteration spent 39
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=40 Optimizer flat theta_mean 770.3183844155029 best po 864.9864103064734 iteration spent 40
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=41 Optimizer flat theta_mean 765.9678945009183 best po 836.810384160295 iteration spent 41
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=42 Optimizer flat theta_mean 811.5382589566307 best po 841.3717169376102 iteration spent 42
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=43 Optimizer flat theta_mean 844.7802108649428 best po 845.8685297087059 iteration spent 43
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=44 Optimizer flat theta_mean 811.0851792432703 best po 880.7904350722224 iteration spent 44
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=45 Optimizer flat theta_mean 861.0618720981232 best po 905.0256930999966 iteration spent 45
+INFO:poet_distributed.logger:{'accept_theta_in_flat': 'self',
+ 'episodes_so_far_flat': 11776,
+ 'episodes_this_step_flat': 256,
+ 'eval_len_mean_flat': 1999.0,
+ 'eval_len_std_flat': 0.0,
+ 'eval_n_episodes_flat': 5,
+ 'eval_returns_mean_best_in_flat': None,
+ 'eval_returns_mean_best_with_ckpt_in_flat': None,
+ 'eval_returns_mean_flat': 861.0618720981232,
+ 'eval_returns_mean_proposal_from_others_in_flat': None,
+ 'eval_returns_mean_theta_from_others_in_flat': None,
+ 'eval_returns_median_flat': 861.0618720981232,
+ 'eval_returns_std_flat': 0.0,
+ 'grad_norm_flat': 6019.611328125,
+ 'iteration': 45,
+ 'learning_rate_flat': 0.009954103348363056,
+ 'noise_std_flat': 0.019100399636471182,
+ 'po_len_mean_flat': 1999.0,
+ 'po_len_std_flat': 0.0,
+ 'po_returns_max_flat': 905.0256930999966,
+ 'po_returns_mean_flat': 583.3475048731403,
+ 'po_returns_median_flat': 657.426386552736,
+ 'po_returns_min_flat': -2251.359496285256,
+ 'po_returns_std_flat': 346.3370113515514,
+ 'theta_norm_flat': 67.2423736826774,
+ 'time_elapsed_so_far': 5997.183217763901,
+ 'time_elapsed_this_step_flat': 98.28822183609009,
+ 'timesteps_so_far_flat': 47080412,
+ 'timesteps_this_step_flat': 1023488,
+ 'update_ratio_flat': 0.0182364187253181}
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=46 Optimizer flat theta_mean 880.0235070689321 best po 890.3279883224851 iteration spent 46
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=47 Optimizer flat theta_mean 773.6017781400644 best po 910.3132567934822 iteration spent 47
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=48 Optimizer flat theta_mean 817.7447143978164 best po 937.491303477212 iteration spent 48
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=49 Optimizer flat theta_mean 742.1744487984403 best po 919.2156076687971 iteration spent 49
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=50 Optimizer flat theta_mean 829.9707599263287 best po 903.253808269807 iteration spent 50
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=51 Optimizer flat theta_mean 819.645552800723 best po 920.6383991902352 iteration spent 51
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=52 Optimizer flat theta_mean 844.0337096428259 best po 934.8517735375805 iteration spent 52
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=53 Optimizer flat theta_mean 940.8609487174821 best po 968.9843264695578 iteration spent 53
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=54 Optimizer flat theta_mean 882.3159735033485 best po 966.0388296491236 iteration spent 54
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=55 Optimizer flat theta_mean 910.3829363979164 best po 1008.2836949497613 iteration spent 55
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=56 Optimizer flat theta_mean 965.0234751136871 best po 1028.1712436406222 iteration spent 56
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=57 Optimizer flat theta_mean 998.0069801631043 best po 977.8626384697181 iteration spent 57
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=58 Optimizer flat theta_mean 979.4823034767145 best po 995.266323568954 iteration spent 58
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=59 Optimizer flat theta_mean 989.6449366988707 best po 977.2246369180071 iteration spent 59
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=60 Optimizer flat theta_mean 980.8360565675979 best po 981.3962059348481 iteration spent 60
+INFO:poet_distributed.logger:{'accept_theta_in_flat': 'self',
+ 'episodes_so_far_flat': 15616,
+ 'episodes_this_step_flat': 256,
+ 'eval_len_mean_flat': 1999.0,
+ 'eval_len_std_flat': 0.0,
+ 'eval_n_episodes_flat': 5,
+ 'eval_returns_mean_best_in_flat': None,
+ 'eval_returns_mean_best_with_ckpt_in_flat': None,
+ 'eval_returns_mean_flat': 980.8360565675979,
+ 'eval_returns_mean_proposal_from_others_in_flat': None,
+ 'eval_returns_mean_theta_from_others_in_flat': None,
+ 'eval_returns_median_flat': 980.8360565675979,
+ 'eval_returns_std_flat': 0.0,
+ 'grad_norm_flat': 5929.31982421875,
+ 'iteration': 60,
+ 'learning_rate_flat': 0.009939182640621273,
+ 'noise_std_flat': 0.018815890519218892,
+ 'po_len_mean_flat': 1999.0,
+ 'po_len_std_flat': 0.0,
+ 'po_returns_max_flat': 981.3962059348481,
+ 'po_returns_mean_flat': 595.9444284662026,
+ 'po_returns_median_flat': 730.7312078978326,
+ 'po_returns_min_flat': -11582.240098125692,
+ 'po_returns_std_flat': 947.7446577995865,
+ 'theta_norm_flat': 73.50498904704264,
+ 'time_elapsed_so_far': 7489.357325553894,
+ 'time_elapsed_this_step_flat': 97.44639730453491,
+ 'timesteps_so_far_flat': 62432732,
+ 'timesteps_this_step_flat': 1023488,
+ 'update_ratio_flat': 0.01680370233785009}
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=61 Optimizer flat theta_mean 985.0200953021906 best po 977.6322026638956 iteration spent 61
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=62 Optimizer flat theta_mean 975.048282892519 best po 968.4386337897969 iteration spent 62
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=63 Optimizer flat theta_mean 954.6595126829076 best po 971.1360977644448 iteration spent 63
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=64 Optimizer flat theta_mean 923.0623174638419 best po 969.4915672017801 iteration spent 64
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=65 Optimizer flat theta_mean 966.5485880447375 best po 990.9115636678108 iteration spent 65
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=66 Optimizer flat theta_mean 982.7041049944295 best po 1018.9719925557465 iteration spent 66
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=67 Optimizer flat theta_mean 997.1441495630881 best po 1001.4874207240603 iteration spent 67
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=68 Optimizer flat theta_mean 976.2511189905329 best po 1017.1738419160151 iteration spent 68
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=69 Optimizer flat theta_mean 1068.1668702797908 best po 997.5757289833593 iteration spent 69
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=70 Optimizer flat theta_mean 1063.2857738414814 best po 1005.2529471861665 iteration spent 70
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=71 Optimizer flat theta_mean 1067.3335265543667 best po 1015.8939704695822 iteration spent 71
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=72 Optimizer flat theta_mean 1021.319810148673 best po 1011.2190760691536 iteration spent 72
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=73 Optimizer flat theta_mean 1046.3799349171109 best po 1030.072341673277 iteration spent 73
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=74 Optimizer flat theta_mean 1055.497157610879 best po 1048.9866110460632 iteration spent 74
+INFO:poet_distributed.poet_algo:health_check
+INFO:poet_distributed.poet_algo:niche flat created at 0 start_score -68.21135441738639 current_self_evals 1055.497157610879
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=75 Optimizer flat theta_mean 1014.2359538434127 best po 1026.6759445175474 iteration spent 75
+INFO:poet_distributed.logger:{'accept_theta_in_flat': 'self',
+ 'episodes_so_far_flat': 19456,
+ 'episodes_this_step_flat': 256,
+ 'eval_len_mean_flat': 1999.0,
+ 'eval_len_std_flat': 0.0,
+ 'eval_n_episodes_flat': 5,
+ 'eval_returns_mean_best_in_flat': None,
+ 'eval_returns_mean_best_with_ckpt_in_flat': None,
+ 'eval_returns_mean_flat': 1014.2359538434127,
+ 'eval_returns_mean_proposal_from_others_in_flat': None,
+ 'eval_returns_mean_theta_from_others_in_flat': None,
+ 'eval_returns_median_flat': 1014.2359538434127,
+ 'eval_returns_std_flat': 0.0,
+ 'grad_norm_flat': 5930.86328125,
+ 'iteration': 75,
+ 'learning_rate_flat': 0.009924284298281145,
+ 'noise_std_flat': 0.01853561929433222,
+ 'po_len_mean_flat': 1999.0,
+ 'po_len_std_flat': 0.0,
+ 'po_returns_max_flat': 1026.6759445175474,
+ 'po_returns_mean_flat': 537.1629765574544,
+ 'po_returns_median_flat': 781.4264703102651,
+ 'po_returns_min_flat': -12299.738202649158,
+ 'po_returns_std_flat': 1435.0813258013802,
+ 'theta_norm_flat': 79.40195916911111,
+ 'time_elapsed_so_far': 8975.340233564377,
+ 'time_elapsed_this_step_flat': 102.37985897064209,
+ 'timesteps_so_far_flat': 77785052,
+ 'timesteps_this_step_flat': 1023488,
+ 'update_ratio_flat': 0.016898997804001312}
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=76 Optimizer flat theta_mean 1009.8121833049261 best po 1016.0223143785656 iteration spent 76
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=77 Optimizer flat theta_mean 1046.5870900598368 best po 1027.1356033106522 iteration spent 77
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=78 Optimizer flat theta_mean 1019.9045929710386 best po 1044.7946056127864 iteration spent 78
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=79 Optimizer flat theta_mean 1065.8726573517233 best po 1028.244611555731 iteration spent 79
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=80 Optimizer flat theta_mean 1091.5663040800237 best po 1071.9066344530022 iteration spent 80
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=81 Optimizer flat theta_mean 1054.4230360805088 best po 1041.842998256796 iteration spent 81
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=82 Optimizer flat theta_mean 1039.2633769489444 best po 1029.3836836068247 iteration spent 82
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=83 Optimizer flat theta_mean 1078.0892970612476 best po 1034.8257157832752 iteration spent 83
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=84 Optimizer flat theta_mean 1053.3337533877866 best po 1038.8394828359128 iteration spent 84
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=85 Optimizer flat theta_mean 1065.3616595217618 best po 1040.2652645101984 iteration spent 85
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=86 Optimizer flat theta_mean 1014.2232233608502 best po 1057.1592578587984 iteration spent 86
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=87 Optimizer flat theta_mean 985.1244593217201 best po 1055.3469311506387 iteration spent 87
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=88 Optimizer flat theta_mean 978.346639753861 best po 1063.6760970598777 iteration spent 88
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=89 Optimizer flat theta_mean 972.985112123007 best po 1033.357322860347 iteration spent 89
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=90 Optimizer flat theta_mean 962.461129559116 best po 1054.3820533250578 iteration spent 90
+INFO:poet_distributed.logger:{'accept_theta_in_flat': 'self',
+ 'episodes_so_far_flat': 23296,
+ 'episodes_this_step_flat': 256,
+ 'eval_len_mean_flat': 1999.0,
+ 'eval_len_std_flat': 0.0,
+ 'eval_n_episodes_flat': 5,
+ 'eval_returns_mean_best_in_flat': None,
+ 'eval_returns_mean_best_with_ckpt_in_flat': None,
+ 'eval_returns_mean_flat': 962.461129559116,
+ 'eval_returns_mean_proposal_from_others_in_flat': None,
+ 'eval_returns_mean_theta_from_others_in_flat': None,
+ 'eval_returns_median_flat': 962.461129559116,
+ 'eval_returns_std_flat': 0.0,
+ 'grad_norm_flat': 6866.181640625,
+ 'iteration': 90,
+ 'learning_rate_flat': 0.009909408287818047,
+ 'noise_std_flat': 0.018259522836481912,
+ 'po_len_mean_flat': 1999.0,
+ 'po_len_std_flat': 0.0,
+ 'po_returns_max_flat': 1054.3820533250578,
+ 'po_returns_mean_flat': 238.45327687003171,
+ 'po_returns_median_flat': 827.2555118753658,
+ 'po_returns_min_flat': -12023.60936741752,
+ 'po_returns_std_flat': 2404.313291223912,
+ 'theta_norm_flat': 85.23442082464493,
+ 'time_elapsed_so_far': 10461.874922275543,
+ 'time_elapsed_this_step_flat': 97.78922891616821,
+ 'timesteps_so_far_flat': 93137372,
+ 'timesteps_this_step_flat': 1023488,
+ 'update_ratio_flat': 0.01683484424281633}
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=91 Optimizer flat theta_mean 1004.4423884731344 best po 1048.8124425596125 iteration spent 91
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=92 Optimizer flat theta_mean 1023.2661596390537 best po 1049.8698549112287 iteration spent 92
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=93 Optimizer flat theta_mean 1012.2205135003553 best po 1044.4692797857558 iteration spent 93
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=94 Optimizer flat theta_mean 995.3504500127076 best po 1018.3305685575278 iteration spent 94
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=95 Optimizer flat theta_mean 938.3611188709198 best po 1017.4002566608965 iteration spent 95
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=96 Optimizer flat theta_mean 997.3112445756472 best po 1056.3447322015484 iteration spent 96
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=97 Optimizer flat theta_mean 930.3217111217639 best po 1014.6528056472986 iteration spent 97
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=98 Optimizer flat theta_mean 877.0664981664684 best po 1046.3651088179063 iteration spent 98
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=99 Optimizer flat theta_mean 963.3890588667276 best po 1032.9408604514229 iteration spent 99
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=100 Optimizer flat theta_mean 968.3053263538357 best po 1035.0889531872867 iteration spent 100
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=101 Optimizer flat theta_mean 959.7576810357808 best po 1018.1257060195829 iteration spent 101
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=102 Optimizer flat theta_mean 984.6271540647228 best po 1040.1539639457928 iteration spent 102
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=103 Optimizer flat theta_mean 1053.1767517390244 best po 1053.462931254224 iteration spent 103
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=104 Optimizer flat theta_mean 1054.3977438226123 best po 1039.4751662488823 iteration spent 104
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=105 Optimizer flat theta_mean 1059.8219503368985 best po 1048.9218479766178 iteration spent 105
+INFO:poet_distributed.logger:{'accept_theta_in_flat': 'self',
+ 'episodes_so_far_flat': 27136,
+ 'episodes_this_step_flat': 256,
+ 'eval_len_mean_flat': 1999.0,
+ 'eval_len_std_flat': 0.0,
+ 'eval_n_episodes_flat': 5,
+ 'eval_returns_mean_best_in_flat': None,
+ 'eval_returns_mean_best_with_ckpt_in_flat': None,
+ 'eval_returns_mean_flat': 1059.8219503368985,
+ 'eval_returns_mean_proposal_from_others_in_flat': None,
+ 'eval_returns_mean_theta_from_others_in_flat': None,
+ 'eval_returns_median_flat': 1059.8219503368985,
+ 'eval_returns_std_flat': 0.0,
+ 'grad_norm_flat': 7015.794921875,
+ 'iteration': 105,
+ 'learning_rate_flat': 0.009894554575757594,
+ 'noise_std_flat': 0.017987538960619127,
+ 'po_len_mean_flat': 1999.0,
+ 'po_len_std_flat': 0.0,
+ 'po_returns_max_flat': 1048.9218479766178,
+ 'po_returns_mean_flat': -83.00134537109756,
+ 'po_returns_median_flat': 830.6976185348565,
+ 'po_returns_min_flat': -11734.717765048119,
+ 'po_returns_std_flat': 3032.423291918298,
+ 'theta_norm_flat': 91.27774246391559,
+ 'time_elapsed_so_far': 11966.824405670166,
+ 'time_elapsed_this_step_flat': 104.91207528114319,
+ 'timesteps_so_far_flat': 108489692,
+ 'timesteps_this_step_flat': 1023488,
+ 'update_ratio_flat': 0.017166581203040463}
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=106 Optimizer flat theta_mean 1075.2667761885957 best po 1060.0728466131684 iteration spent 106
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=107 Optimizer flat theta_mean 1037.4481117147404 best po 1084.5915102076813 iteration spent 107
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=108 Optimizer flat theta_mean 1054.6978416752097 best po 1043.2927154883653 iteration spent 108
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=109 Optimizer flat theta_mean 1049.6646503342351 best po 1084.8637712879397 iteration spent 109
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=110 Optimizer flat theta_mean 1016.0503349440618 best po 1096.5849727750458 iteration spent 110
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=111 Optimizer flat theta_mean 1073.2878834078385 best po 1041.6995677976447 iteration spent 111
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=112 Optimizer flat theta_mean 1059.7653292650284 best po 1050.830900127207 iteration spent 112
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=113 Optimizer flat theta_mean 1024.3312854380501 best po 1058.1415140465808 iteration spent 113
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=114 Optimizer flat theta_mean 1055.0487552552624 best po 1078.536245863405 iteration spent 114
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=115 Optimizer flat theta_mean 1040.9677744726134 best po 1061.4659449711382 iteration spent 115
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=116 Optimizer flat theta_mean 1064.8296500637043 best po 1057.9907429874318 iteration spent 116
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=117 Optimizer flat theta_mean 1051.562818538567 best po 1069.4627819464856 iteration spent 117
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=118 Optimizer flat theta_mean 1069.472796191702 best po 1050.032573130629 iteration spent 118
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=119 Optimizer flat theta_mean 950.5820262339852 best po 1093.2891017747936 iteration spent 119
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=120 Optimizer flat theta_mean 1087.1139599764304 best po 1074.9941937649814 iteration spent 120
+INFO:poet_distributed.logger:{'accept_theta_in_flat': 'self',
+ 'episodes_so_far_flat': 30976,
+ 'episodes_this_step_flat': 256,
+ 'eval_len_mean_flat': 1999.0,
+ 'eval_len_std_flat': 0.0,
+ 'eval_n_episodes_flat': 5,
+ 'eval_returns_mean_best_in_flat': None,
+ 'eval_returns_mean_best_with_ckpt_in_flat': None,
+ 'eval_returns_mean_flat': 1087.1139599764304,
+ 'eval_returns_mean_proposal_from_others_in_flat': None,
+ 'eval_returns_mean_theta_from_others_in_flat': None,
+ 'eval_returns_median_flat': 1087.1139599764304,
+ 'eval_returns_std_flat': 0.0,
+ 'grad_norm_flat': 7592.107421875,
+ 'iteration': 120,
+ 'learning_rate_flat': 0.009879723128675591,
+ 'noise_std_flat': 0.017719606407969542,
+ 'po_len_mean_flat': 1999.0,
+ 'po_len_std_flat': 0.0,
+ 'po_returns_max_flat': 1074.9941937649814,
+ 'po_returns_mean_flat': -72.72543467151206,
+ 'po_returns_median_flat': 859.9301430703633,
+ 'po_returns_min_flat': -11554.91055332077,
+ 'po_returns_std_flat': 3063.1759526410365,
+ 'theta_norm_flat': 98.41904336176495,
+ 'time_elapsed_so_far': 13482.555143117905,
+ 'time_elapsed_this_step_flat': 98.44085121154785,
+ 'timesteps_so_far_flat': 123842012,
+ 'timesteps_this_step_flat': 1023488,
+ 'update_ratio_flat': 0.016745416406373864}
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=121 Optimizer flat theta_mean 1061.7328704646613 best po 1082.119040297217 iteration spent 121
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=122 Optimizer flat theta_mean 1007.1278265141273 best po 1073.1155562016284 iteration spent 122
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=123 Optimizer flat theta_mean 1060.0158911016797 best po 1094.8255057673514 iteration spent 123
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=124 Optimizer flat theta_mean 1063.0937138944641 best po 1080.1561845407355 iteration spent 124
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=125 Optimizer flat theta_mean 1061.2422942055762 best po 1088.0321464268168 iteration spent 125
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=126 Optimizer flat theta_mean 1048.9339191167007 best po 1102.9899959856643 iteration spent 126
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=127 Optimizer flat theta_mean 1085.8434301749721 best po 1075.0189562246487 iteration spent 127
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=128 Optimizer flat theta_mean 1091.3873924092034 best po 1120.8171772911558 iteration spent 128
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=129 Optimizer flat theta_mean 1023.7250394153141 best po 1115.5769582302805 iteration spent 129
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=130 Optimizer flat theta_mean 1026.3654957550716 best po 1092.96288192247 iteration spent 130
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=131 Optimizer flat theta_mean 1058.613382390195 best po 1068.3634873578505 iteration spent 131
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=132 Optimizer flat theta_mean 1033.5344563126807 best po 1062.2762442275832 iteration spent 132
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=133 Optimizer flat theta_mean 1010.8350657745152 best po 1063.9448758393412 iteration spent 133
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=134 Optimizer flat theta_mean 1099.1957351446295 best po 1083.1218058345255 iteration spent 134
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=135 Optimizer flat theta_mean 1086.331495668777 best po 1087.449174399522 iteration spent 135
+INFO:poet_distributed.logger:{'accept_theta_in_flat': 'self',
+ 'episodes_so_far_flat': 34816,
+ 'episodes_this_step_flat': 256,
+ 'eval_len_mean_flat': 1999.0,
+ 'eval_len_std_flat': 0.0,
+ 'eval_n_episodes_flat': 5,
+ 'eval_returns_mean_best_in_flat': None,
+ 'eval_returns_mean_best_with_ckpt_in_flat': None,
+ 'eval_returns_mean_flat': 1086.331495668777,
+ 'eval_returns_mean_proposal_from_others_in_flat': None,
+ 'eval_returns_mean_theta_from_others_in_flat': None,
+ 'eval_returns_median_flat': 1086.331495668777,
+ 'eval_returns_std_flat': 0.0,
+ 'grad_norm_flat': 7313.443359375,
+ 'iteration': 135,
+ 'learning_rate_flat': 0.009864913913197939,
+ 'noise_std_flat': 0.017455664832236064,
+ 'po_len_mean_flat': 1999.0,
+ 'po_len_std_flat': 0.0,
+ 'po_returns_max_flat': 1087.449174399522,
+ 'po_returns_mean_flat': -195.06051395996553,
+ 'po_returns_median_flat': 873.8068540460233,
+ 'po_returns_min_flat': -12315.094460377884,
+ 'po_returns_std_flat': 3278.809548608143,
+ 'theta_norm_flat': 106.02425916269479,
+ 'time_elapsed_so_far': 14995.84746336937,
+ 'time_elapsed_this_step_flat': 103.8119797706604,
+ 'timesteps_so_far_flat': 139194332,
+ 'timesteps_this_step_flat': 1023488,
+ 'update_ratio_flat': 0.01616257007511202}
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=136 Optimizer flat theta_mean 1088.5248217687247 best po 1090.566612819391 iteration spent 136
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=137 Optimizer flat theta_mean 1097.944452970682 best po 1093.7533135478745 iteration spent 137
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=138 Optimizer flat theta_mean 1107.1461738501846 best po 1113.9485164828254 iteration spent 138
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=139 Optimizer flat theta_mean 1136.6820387073574 best po 1092.1635673170392 iteration spent 139
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=140 Optimizer flat theta_mean 1123.434773313442 best po 1111.3755048627024 iteration spent 140
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=141 Optimizer flat theta_mean 1129.7736516824634 best po 1116.3410937280705 iteration spent 141
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=142 Optimizer flat theta_mean 1102.8299220347315 best po 1106.8917806568622 iteration spent 142
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=143 Optimizer flat theta_mean 1106.8891720984705 best po 1086.9697311496323 iteration spent 143
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=144 Optimizer flat theta_mean 1126.1585391811095 best po 1100.0238948848992 iteration spent 144
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=145 Optimizer flat theta_mean 1085.8003636947462 best po 1125.7919327350176 iteration spent 145
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=146 Optimizer flat theta_mean 1119.8053231334927 best po 1085.495697597491 iteration spent 146
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=147 Optimizer flat theta_mean 1094.2436596087668 best po 1084.87936574031 iteration spent 147
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=148 Optimizer flat theta_mean 1106.6442583022972 best po 1096.6933166484696 iteration spent 148
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=149 Optimizer flat theta_mean 1077.6955765490582 best po 1115.3754881469713 iteration spent 149
+INFO:poet_distributed.poet_algo:health_check
+INFO:poet_distributed.poet_algo:niche flat created at 0 start_score -68.21135441738639 current_self_evals 1077.6955765490582
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=150 Optimizer flat theta_mean 1082.8187352659675 best po 1120.2530173768384 iteration spent 150
+INFO:poet_distributed.logger:{'accept_theta_in_flat': 'self',
+ 'episodes_so_far_flat': 38656,
+ 'episodes_this_step_flat': 256,
+ 'eval_len_mean_flat': 1999.0,
+ 'eval_len_std_flat': 0.0,
+ 'eval_n_episodes_flat': 5,
+ 'eval_returns_mean_best_in_flat': None,
+ 'eval_returns_mean_best_with_ckpt_in_flat': None,
+ 'eval_returns_mean_flat': 1082.8187352659675,
+ 'eval_returns_mean_proposal_from_others_in_flat': None,
+ 'eval_returns_mean_theta_from_others_in_flat': None,
+ 'eval_returns_median_flat': 1082.8187352659675,
+ 'eval_returns_std_flat': 0.0,
+ 'grad_norm_flat': 7979.185546875,
+ 'iteration': 150,
+ 'learning_rate_flat': 0.009850126896000563,
+ 'noise_std_flat': 0.017195654786007063,
+ 'po_len_mean_flat': 1999.0,
+ 'po_len_std_flat': 0.0,
+ 'po_returns_max_flat': 1120.2530173768384,
+ 'po_returns_mean_flat': -404.24336746092547,
+ 'po_returns_median_flat': 906.8749013733711,
+ 'po_returns_min_flat': -11201.951812257494,
+ 'po_returns_std_flat': 3608.0106632284283,
+ 'theta_norm_flat': 114.482232794327,
+ 'time_elapsed_so_far': 16508.457265138626,
+ 'time_elapsed_this_step_flat': 104.74243474006653,
+ 'timesteps_so_far_flat': 154546652,
+ 'timesteps_this_step_flat': 1023488,
+ 'update_ratio_flat': 0.015662397582719558}
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=151 Optimizer flat theta_mean 1059.783298954409 best po 1128.9233427886436 iteration spent 151
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=152 Optimizer flat theta_mean 1028.3470360092167 best po 1096.268542758375 iteration spent 152
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=153 Optimizer flat theta_mean 1077.3306063643056 best po 1112.4939654172222 iteration spent 153
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=154 Optimizer flat theta_mean 1134.8511323609202 best po 1111.6979203350822 iteration spent 154
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=155 Optimizer flat theta_mean 1112.7231090140465 best po 1121.0402593038582 iteration spent 155
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=156 Optimizer flat theta_mean 1122.644455658495 best po 1136.8062224624473 iteration spent 156
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=157 Optimizer flat theta_mean 1113.8578956867914 best po 1113.0321923608374 iteration spent 157
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=158 Optimizer flat theta_mean 1131.446312089915 best po 1114.1830014031532 iteration spent 158
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=159 Optimizer flat theta_mean 1128.4020281497142 best po 1108.6806159074733 iteration spent 159
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=160 Optimizer flat theta_mean 1132.4753446673444 best po 1153.322219487873 iteration spent 160
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=161 Optimizer flat theta_mean 1080.4595208405105 best po 1130.3091710456886 iteration spent 161
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=162 Optimizer flat theta_mean 1104.7944324552993 best po 1128.264325529351 iteration spent 162
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=163 Optimizer flat theta_mean 1088.6298165735898 best po 1171.067966026007 iteration spent 163
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=164 Optimizer flat theta_mean 1098.5612674334272 best po 1119.1547184899894 iteration spent 164
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=165 Optimizer flat theta_mean 1047.7726870563276 best po 1150.4581686958184 iteration spent 165
+INFO:poet_distributed.logger:{'accept_theta_in_flat': 'self',
+ 'episodes_so_far_flat': 42496,
+ 'episodes_this_step_flat': 256,
+ 'eval_len_mean_flat': 1999.0,
+ 'eval_len_std_flat': 0.0,
+ 'eval_n_episodes_flat': 5,
+ 'eval_returns_mean_best_in_flat': None,
+ 'eval_returns_mean_best_with_ckpt_in_flat': None,
+ 'eval_returns_mean_flat': 1047.7726870563276,
+ 'eval_returns_mean_proposal_from_others_in_flat': None,
+ 'eval_returns_mean_theta_from_others_in_flat': None,
+ 'eval_returns_median_flat': 1047.7726870563276,
+ 'eval_returns_std_flat': 0.0,
+ 'grad_norm_flat': 9139.1875,
+ 'iteration': 165,
+ 'learning_rate_flat': 0.009835362043809342,
+ 'noise_std_flat': 0.016939517707367076,
+ 'po_len_mean_flat': 1999.0,
+ 'po_len_std_flat': 0.0,
+ 'po_returns_max_flat': 1150.4581686958184,
+ 'po_returns_mean_flat': -480.1993704971537,
+ 'po_returns_median_flat': 905.419324103673,
+ 'po_returns_min_flat': -12008.178489056017,
+ 'po_returns_std_flat': 3677.556649751919,
+ 'theta_norm_flat': 122.30659682039213,
+ 'time_elapsed_so_far': 18023.013870477676,
+ 'time_elapsed_this_step_flat': 101.61256337165833,
+ 'timesteps_so_far_flat': 169898972,
+ 'timesteps_this_step_flat': 1023488,
+ 'update_ratio_flat': 0.015096072326336587}
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=166 Optimizer flat theta_mean 1064.1653089788817 best po 1147.7441232571396 iteration spent 166
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=167 Optimizer flat theta_mean 1082.3257467580834 best po 1171.194633816247 iteration spent 167
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=168 Optimizer flat theta_mean 1046.2636518780823 best po 1134.3047906135157 iteration spent 168
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=169 Optimizer flat theta_mean 1080.2793291389394 best po 1184.24022610369 iteration spent 169
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=170 Optimizer flat theta_mean 1104.2719034264667 best po 1116.7190082374273 iteration spent 170
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=171 Optimizer flat theta_mean 1135.8293034643195 best po 1136.799425543379 iteration spent 171
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=172 Optimizer flat theta_mean 1139.095474637265 best po 1134.8382523822218 iteration spent 172
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=173 Optimizer flat theta_mean 1139.5860086989285 best po 1160.0730354720943 iteration spent 173
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=174 Optimizer flat theta_mean 1120.411998427234 best po 1132.6534930660814 iteration spent 174
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=175 Optimizer flat theta_mean 1147.0521458444239 best po 1134.5642770482707 iteration spent 175
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=176 Optimizer flat theta_mean 1156.1873111710488 best po 1149.090500138506 iteration spent 176
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=177 Optimizer flat theta_mean 1154.409430572861 best po 1128.4653365958961 iteration spent 177
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=178 Optimizer flat theta_mean 1102.737328198177 best po 1162.6235624985006 iteration spent 178
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=179 Optimizer flat theta_mean 1162.5635234520053 best po 1128.0400794202906 iteration spent 179
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=180 Optimizer flat theta_mean 1117.2053219277466 best po 1148.172329731646 iteration spent 180
+INFO:poet_distributed.logger:{'accept_theta_in_flat': 'self',
+ 'episodes_so_far_flat': 46336,
+ 'episodes_this_step_flat': 256,
+ 'eval_len_mean_flat': 1999.0,
+ 'eval_len_std_flat': 0.0,
+ 'eval_n_episodes_flat': 5,
+ 'eval_returns_mean_best_in_flat': None,
+ 'eval_returns_mean_best_with_ckpt_in_flat': None,
+ 'eval_returns_mean_flat': 1117.2053219277466,
+ 'eval_returns_mean_proposal_from_others_in_flat': None,
+ 'eval_returns_mean_theta_from_others_in_flat': None,
+ 'eval_returns_median_flat': 1117.2053219277466,
+ 'eval_returns_std_flat': 0.0,
+ 'grad_norm_flat': 9070.2099609375,
+ 'iteration': 180,
+ 'learning_rate_flat': 0.009820619323400028,
+ 'noise_std_flat': 0.016687195906706948,
+ 'po_len_mean_flat': 1999.0,
+ 'po_len_std_flat': 0.0,
+ 'po_returns_max_flat': 1148.172329731646,
+ 'po_returns_mean_flat': -260.74289365710115,
+ 'po_returns_median_flat': 920.3869756857271,
+ 'po_returns_min_flat': -11629.657711204592,
+ 'po_returns_std_flat': 3476.067215492094,
+ 'theta_norm_flat': 130.12017968792748,
+ 'time_elapsed_so_far': 19549.779683113098,
+ 'time_elapsed_this_step_flat': 104.31628465652466,
+ 'timesteps_so_far_flat': 185251292,
+ 'timesteps_this_step_flat': 1023488,
+ 'update_ratio_flat': 0.014716371286076373}
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=181 Optimizer flat theta_mean 1178.8101883026536 best po 1144.2724556460525 iteration spent 181
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=182 Optimizer flat theta_mean 1154.857985723436 best po 1132.7116130846437 iteration spent 182
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=183 Optimizer flat theta_mean 1132.7071169848114 best po 1134.460945314919 iteration spent 183
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=184 Optimizer flat theta_mean 1134.9276181888174 best po 1123.7864504424113 iteration spent 184
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=185 Optimizer flat theta_mean 1118.4278234337871 best po 1125.8570225809128 iteration spent 185
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=186 Optimizer flat theta_mean 1124.775844081333 best po 1144.2716814569158 iteration spent 186
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=187 Optimizer flat theta_mean 1107.6917098922797 best po 1143.4987258722106 iteration spent 187
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=188 Optimizer flat theta_mean 1053.0806912764147 best po 1148.199561985949 iteration spent 188
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=189 Optimizer flat theta_mean 1061.1458481375741 best po 1141.1536158835975 iteration spent 189
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=190 Optimizer flat theta_mean 1108.2527834509494 best po 1132.6646794993742 iteration spent 190
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=191 Optimizer flat theta_mean 1115.769635717339 best po 1145.0964256339514 iteration spent 191
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=192 Optimizer flat theta_mean 1118.6484200314267 best po 1152.2903320657197 iteration spent 192
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=193 Optimizer flat theta_mean 1102.74314264867 best po 1129.7473548120668 iteration spent 193
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=194 Optimizer flat theta_mean 1091.6244620540065 best po 1135.8992405698 iteration spent 194
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=195 Optimizer flat theta_mean 1082.8934768738272 best po 1145.2895910470293 iteration spent 195
+INFO:poet_distributed.logger:{'accept_theta_in_flat': 'self',
+ 'episodes_so_far_flat': 50176,
+ 'episodes_this_step_flat': 256,
+ 'eval_len_mean_flat': 1999.0,
+ 'eval_len_std_flat': 0.0,
+ 'eval_n_episodes_flat': 5,
+ 'eval_returns_mean_best_in_flat': None,
+ 'eval_returns_mean_best_with_ckpt_in_flat': None,
+ 'eval_returns_mean_flat': 1082.8934768738272,
+ 'eval_returns_mean_proposal_from_others_in_flat': None,
+ 'eval_returns_mean_theta_from_others_in_flat': None,
+ 'eval_returns_median_flat': 1082.8934768738272,
+ 'eval_returns_std_flat': 0.0,
+ 'grad_norm_flat': 7982.80078125,
+ 'iteration': 195,
+ 'learning_rate_flat': 0.009805898701598178,
+ 'noise_std_flat': 0.01643863255373041,
+ 'po_len_mean_flat': 1999.0,
+ 'po_len_std_flat': 0.0,
+ 'po_returns_max_flat': 1145.2895910470293,
+ 'po_returns_mean_flat': -121.95377667293073,
+ 'po_returns_median_flat': 946.3515781507222,
+ 'po_returns_min_flat': -11686.577472020452,
+ 'po_returns_std_flat': 3288.7521705400395,
+ 'theta_norm_flat': 137.5758250622356,
+ 'time_elapsed_so_far': 21071.960487127304,
+ 'time_elapsed_this_step_flat': 102.0992124080658,
+ 'timesteps_so_far_flat': 200603612,
+ 'timesteps_this_step_flat': 1023488,
+ 'update_ratio_flat': 0.01396974826594179}
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=196 Optimizer flat theta_mean 1147.6478473965476 best po 1136.2902444453998 iteration spent 196
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=197 Optimizer flat theta_mean 1141.498639540385 best po 1117.7285401477072 iteration spent 197
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=198 Optimizer flat theta_mean 1123.4582281095534 best po 1132.7635530112568 iteration spent 198
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=199 Optimizer flat theta_mean 1150.8612777051414 best po 1150.892897289513 iteration spent 199
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=200 Optimizer flat theta_mean 1099.392050597656 best po 1146.5962280398023 iteration spent 200
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=201 Optimizer flat theta_mean 1119.61552804878 best po 1132.7510343194574 iteration spent 201
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=202 Optimizer flat theta_mean 1107.701519158594 best po 1152.841946388312 iteration spent 202
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=203 Optimizer flat theta_mean 1095.6549474248297 best po 1160.2863867919898 iteration spent 203
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=204 Optimizer flat theta_mean 1098.9432414528292 best po 1143.052076122604 iteration spent 204
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=205 Optimizer flat theta_mean 1083.7868197444604 best po 1173.4083873136028 iteration spent 205
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=206 Optimizer flat theta_mean 1089.783048153643 best po 1145.5138765228787 iteration spent 206
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=207 Optimizer flat theta_mean 1072.1651744810322 best po 1143.2024444775977 iteration spent 207
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=208 Optimizer flat theta_mean 1152.0846155109896 best po 1154.0737556754186 iteration spent 208
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=209 Optimizer flat theta_mean 1119.6397995020525 best po 1157.0274827256178 iteration spent 209
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=210 Optimizer flat theta_mean 1144.2231156951989 best po 1169.4355051372095 iteration spent 210
+INFO:poet_distributed.logger:{'accept_theta_in_flat': 'self',
+ 'episodes_so_far_flat': 54016,
+ 'episodes_this_step_flat': 256,
+ 'eval_len_mean_flat': 1999.0,
+ 'eval_len_std_flat': 0.0,
+ 'eval_n_episodes_flat': 5,
+ 'eval_returns_mean_best_in_flat': None,
+ 'eval_returns_mean_best_with_ckpt_in_flat': None,
+ 'eval_returns_mean_flat': 1144.2231156951989,
+ 'eval_returns_mean_proposal_from_others_in_flat': None,
+ 'eval_returns_mean_theta_from_others_in_flat': None,
+ 'eval_returns_median_flat': 1144.2231156951989,
+ 'eval_returns_std_flat': 0.0,
+ 'grad_norm_flat': 9166.59765625,
+ 'iteration': 210,
+ 'learning_rate_flat': 0.009791200145279072,
+ 'noise_std_flat': 0.01619377166465423,
+ 'po_len_mean_flat': 1999.0,
+ 'po_len_std_flat': 0.0,
+ 'po_returns_max_flat': 1169.4355051372095,
+ 'po_returns_mean_flat': -102.88553641183347,
+ 'po_returns_median_flat': 979.4323158085479,
+ 'po_returns_min_flat': -11588.276056650151,
+ 'po_returns_std_flat': 3274.392418731673,
+ 'theta_norm_flat': 145.23213558945722,
+ 'time_elapsed_so_far': 22622.40411925316,
+ 'time_elapsed_this_step_flat': 104.1731481552124,
+ 'timesteps_so_far_flat': 215955932,
+ 'timesteps_this_step_flat': 1023488,
+ 'update_ratio_flat': 0.0141141001897749}
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=211 Optimizer flat theta_mean 997.8466353516314 best po 1180.2747181255847 iteration spent 211
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=212 Optimizer flat theta_mean 1134.427133077929 best po 1195.971889469229 iteration spent 212
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=213 Optimizer flat theta_mean 1051.929199038159 best po 1163.1862893135942 iteration spent 213
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=214 Optimizer flat theta_mean 1110.599970606859 best po 1173.0868934900686 iteration spent 214
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=215 Optimizer flat theta_mean 1129.009794672104 best po 1166.901001974939 iteration spent 215
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=216 Optimizer flat theta_mean 1094.3091683789967 best po 1186.9108192640595 iteration spent 216
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=217 Optimizer flat theta_mean 1135.4520407437647 best po 1152.522029313723 iteration spent 217
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=218 Optimizer flat theta_mean 1066.6428123530611 best po 1199.3331197275363 iteration spent 218
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=219 Optimizer flat theta_mean 1136.537007205006 best po 1217.4891856483846 iteration spent 219
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=220 Optimizer flat theta_mean 1030.1181699809829 best po 1199.1813630687943 iteration spent 220
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=221 Optimizer flat theta_mean 1137.9795826531522 best po 1225.550822840227 iteration spent 221
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=222 Optimizer flat theta_mean 1122.1185161738983 best po 1199.4162994271294 iteration spent 222
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=223 Optimizer flat theta_mean 1154.8186793964828 best po 1200.431201806028 iteration spent 223
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=224 Optimizer flat theta_mean 1105.2293869230045 best po 1175.6021829508259 iteration spent 224
+INFO:poet_distributed.poet_algo:health_check
+INFO:poet_distributed.poet_algo:niche flat created at 0 start_score -68.21135441738639 current_self_evals 1105.2293869230045
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=225 Optimizer flat theta_mean 1100.2439658895446 best po 1196.1338884452089 iteration spent 225
+INFO:poet_distributed.logger:{'accept_theta_in_flat': 'self',
+ 'episodes_so_far_flat': 57856,
+ 'episodes_this_step_flat': 256,
+ 'eval_len_mean_flat': 1999.0,
+ 'eval_len_std_flat': 0.0,
+ 'eval_n_episodes_flat': 5,
+ 'eval_returns_mean_best_in_flat': None,
+ 'eval_returns_mean_best_with_ckpt_in_flat': None,
+ 'eval_returns_mean_flat': 1100.2439658895446,
+ 'eval_returns_mean_proposal_from_others_in_flat': None,
+ 'eval_returns_mean_theta_from_others_in_flat': None,
+ 'eval_returns_median_flat': 1100.2439658895446,
+ 'eval_returns_std_flat': 0.0,
+ 'grad_norm_flat': 9865.43359375,
+ 'iteration': 225,
+ 'learning_rate_flat': 0.00977652362136765,
+ 'noise_std_flat': 0.015952558089599046,
+ 'po_len_mean_flat': 1999.0,
+ 'po_len_std_flat': 0.0,
+ 'po_returns_max_flat': 1196.1338884452089,
+ 'po_returns_mean_flat': -161.48995246572048,
+ 'po_returns_median_flat': 985.5180591160888,
+ 'po_returns_min_flat': -11562.42471985875,
+ 'po_returns_std_flat': 3332.909164289345,
+ 'theta_norm_flat': 153.01718865870737,
+ 'time_elapsed_so_far': 24184.273935079575,
+ 'time_elapsed_this_step_flat': 103.77920603752136,
+ 'timesteps_so_far_flat': 231308252,
+ 'timesteps_this_step_flat': 1023488,
+ 'update_ratio_flat': 0.013876954170464995}
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=226 Optimizer flat theta_mean 1147.2928513758384 best po 1167.3400472707897 iteration spent 226
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=227 Optimizer flat theta_mean 1141.504324133508 best po 1177.935220988659 iteration spent 227
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=228 Optimizer flat theta_mean 1134.629861891487 best po 1173.537319219204 iteration spent 228
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=229 Optimizer flat theta_mean 1127.1421652171662 best po 1194.1033719196264 iteration spent 229
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=230 Optimizer flat theta_mean 1160.2586822288715 best po 1171.7703766624777 iteration spent 230
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=231 Optimizer flat theta_mean 1074.9730047712924 best po 1195.3571483400883 iteration spent 231
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=232 Optimizer flat theta_mean 1134.5936012459354 best po 1191.4256281553075 iteration spent 232
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=233 Optimizer flat theta_mean 1056.2082514863976 best po 1184.2454645891432 iteration spent 233
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=234 Optimizer flat theta_mean 1085.6224942488614 best po 1157.5413776447542 iteration spent 234
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=235 Optimizer flat theta_mean 1156.1482671445897 best po 1190.804322946269 iteration spent 235
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=236 Optimizer flat theta_mean 1071.9455263438397 best po 1176.4731604117035 iteration spent 236
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=237 Optimizer flat theta_mean 1075.6291935530019 best po 1208.895781649435 iteration spent 237
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=238 Optimizer flat theta_mean 1174.0448747936177 best po 1188.5161309168234 iteration spent 238
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=239 Optimizer flat theta_mean 1204.0540774413407 best po 1187.2040637170285 iteration spent 239
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=240 Optimizer flat theta_mean 1195.0515013125867 best po 1221.0594835185464 iteration spent 240
+INFO:poet_distributed.logger:{'accept_theta_in_flat': 'self',
+ 'episodes_so_far_flat': 61696,
+ 'episodes_this_step_flat': 256,
+ 'eval_len_mean_flat': 1999.0,
+ 'eval_len_std_flat': 0.0,
+ 'eval_n_episodes_flat': 5,
+ 'eval_returns_mean_best_in_flat': None,
+ 'eval_returns_mean_best_with_ckpt_in_flat': None,
+ 'eval_returns_mean_flat': 1195.0515013125867,
+ 'eval_returns_mean_proposal_from_others_in_flat': None,
+ 'eval_returns_mean_theta_from_others_in_flat': None,
+ 'eval_returns_median_flat': 1195.0515013125867,
+ 'eval_returns_std_flat': 0.0,
+ 'grad_norm_flat': 8027.32958984375,
+ 'iteration': 240,
+ 'learning_rate_flat': 0.009761869096838419,
+ 'noise_std_flat': 0.015714937500167954,
+ 'po_len_mean_flat': 1999.0,
+ 'po_len_std_flat': 0.0,
+ 'po_returns_max_flat': 1221.0594835185464,
+ 'po_returns_mean_flat': 226.0675974323116,
+ 'po_returns_median_flat': 1031.207235685047,
+ 'po_returns_min_flat': -11411.477828175231,
+ 'po_returns_std_flat': 2910.4098961012514,
+ 'theta_norm_flat': 161.56656879855197,
+ 'time_elapsed_so_far': 25720.99266052246,
+ 'time_elapsed_this_step_flat': 100.63081622123718,
+ 'timesteps_so_far_flat': 246660572,
+ 'timesteps_this_step_flat': 1023488,
+ 'update_ratio_flat': 0.013349435344144905}
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=241 Optimizer flat theta_mean 1225.0714700247147 best po 1199.7442353992635 iteration spent 241
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=242 Optimizer flat theta_mean 1196.1532221237069 best po 1192.5784140790056 iteration spent 242
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=243 Optimizer flat theta_mean 1139.090727448052 best po 1202.2052776158002 iteration spent 243
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=244 Optimizer flat theta_mean 1179.6224175701172 best po 1201.7765628716293 iteration spent 244
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=245 Optimizer flat theta_mean 1197.0373107856753 best po 1205.8119466691915 iteration spent 245
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=246 Optimizer flat theta_mean 1204.9839805570487 best po 1192.591047545611 iteration spent 246
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=247 Optimizer flat theta_mean 1175.6768453833697 best po 1201.44836740837 iteration spent 247
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=248 Optimizer flat theta_mean 1180.4543553501917 best po 1201.659242407016 iteration spent 248
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=249 Optimizer flat theta_mean 1157.780337871134 best po 1217.4682754715793 iteration spent 249
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=250 Optimizer flat theta_mean 1169.8062284879034 best po 1190.956418806484 iteration spent 250
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=251 Optimizer flat theta_mean 1115.098679220592 best po 1192.3012674530594 iteration spent 251
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=252 Optimizer flat theta_mean 1148.2296854606022 best po 1183.99494151082 iteration spent 252
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=253 Optimizer flat theta_mean 1191.8728631659562 best po 1172.5658751257954 iteration spent 253
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=254 Optimizer flat theta_mean 1135.7186945610765 best po 1169.4689663766105 iteration spent 254
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=255 Optimizer flat theta_mean 1028.907003859617 best po 1175.4030360893155 iteration spent 255
+INFO:poet_distributed.logger:{'accept_theta_in_flat': 'self',
+ 'episodes_so_far_flat': 65536,
+ 'episodes_this_step_flat': 256,
+ 'eval_len_mean_flat': 1999.0,
+ 'eval_len_std_flat': 0.0,
+ 'eval_n_episodes_flat': 5,
+ 'eval_returns_mean_best_in_flat': None,
+ 'eval_returns_mean_best_with_ckpt_in_flat': None,
+ 'eval_returns_mean_flat': 1028.907003859617,
+ 'eval_returns_mean_proposal_from_others_in_flat': None,
+ 'eval_returns_mean_theta_from_others_in_flat': None,
+ 'eval_returns_median_flat': 1028.907003859617,
+ 'eval_returns_std_flat': 0.0,
+ 'grad_norm_flat': 9712.595703125,
+ 'iteration': 255,
+ 'learning_rate_flat': 0.009747236538715395,
+ 'noise_std_flat': 0.015480856377210165,
+ 'po_len_mean_flat': 1999.0,
+ 'po_len_std_flat': 0.0,
+ 'po_returns_max_flat': 1175.4030360893155,
+ 'po_returns_mean_flat': -340.78947504537336,
+ 'po_returns_median_flat': 1016.2475938234566,
+ 'po_returns_min_flat': -11666.263007319702,
+ 'po_returns_std_flat': 3688.5292789538785,
+ 'theta_norm_flat': 170.14239828301044,
+ 'time_elapsed_so_far': 27237.809262752533,
+ 'time_elapsed_this_step_flat': 100.71526026725769,
+ 'timesteps_so_far_flat': 262012892,
+ 'timesteps_this_step_flat': 1023488,
+ 'update_ratio_flat': 0.01300999069881915}
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=256 Optimizer flat theta_mean 1075.4786153082782 best po 1162.8073117184176 iteration spent 256
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=257 Optimizer flat theta_mean 1102.835074143523 best po 1180.591497694373 iteration spent 257
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=258 Optimizer flat theta_mean 1130.0988276728976 best po 1187.017415847506 iteration spent 258
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=259 Optimizer flat theta_mean 1132.00664302176 best po 1169.8737377129087 iteration spent 259
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=260 Optimizer flat theta_mean 1161.3992958292688 best po 1197.3962280921387 iteration spent 260
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=261 Optimizer flat theta_mean 1159.5592605854854 best po 1182.0306808608382 iteration spent 261
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=262 Optimizer flat theta_mean 1162.3902996667846 best po 1194.1309014096987 iteration spent 262
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=263 Optimizer flat theta_mean 1180.1382559615738 best po 1173.703099718476 iteration spent 263
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=264 Optimizer flat theta_mean 1134.5883050508671 best po 1170.5443748651076 iteration spent 264
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=265 Optimizer flat theta_mean 1174.6909219640704 best po 1217.6433303441888 iteration spent 265
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=266 Optimizer flat theta_mean 1185.7003234838437 best po 1193.2685415297783 iteration spent 266
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=267 Optimizer flat theta_mean 1183.114253566768 best po 1198.9544589022144 iteration spent 267
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=268 Optimizer flat theta_mean 1182.4115867588703 best po 1183.1180271342023 iteration spent 268
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=269 Optimizer flat theta_mean 1188.0709404116155 best po 1209.7309145362965 iteration spent 269
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=270 Optimizer flat theta_mean 1201.3354064120608 best po 1191.9583515199845 iteration spent 270
+INFO:poet_distributed.logger:{'accept_theta_in_flat': 'self',
+ 'episodes_so_far_flat': 69376,
+ 'episodes_this_step_flat': 256,
+ 'eval_len_mean_flat': 1999.0,
+ 'eval_len_std_flat': 0.0,
+ 'eval_n_episodes_flat': 5,
+ 'eval_returns_mean_best_in_flat': None,
+ 'eval_returns_mean_best_with_ckpt_in_flat': None,
+ 'eval_returns_mean_flat': 1201.3354064120608,
+ 'eval_returns_mean_proposal_from_others_in_flat': None,
+ 'eval_returns_mean_theta_from_others_in_flat': None,
+ 'eval_returns_median_flat': 1201.3354064120608,
+ 'eval_returns_std_flat': 0.0,
+ 'grad_norm_flat': 11718.296875,
+ 'iteration': 270,
+ 'learning_rate_flat': 0.009732625914072026,
+ 'noise_std_flat': 0.015250261998766924,
+ 'po_len_mean_flat': 1999.0,
+ 'po_len_std_flat': 0.0,
+ 'po_returns_max_flat': 1191.9583515199845,
+ 'po_returns_mean_flat': -761.5149388203619,
+ 'po_returns_median_flat': 1010.640473932996,
+ 'po_returns_min_flat': -11860.652381517704,
+ 'po_returns_std_flat': 4125.629168772097,
+ 'theta_norm_flat': 177.67708022728874,
+ 'time_elapsed_so_far': 28788.154792785645,
+ 'time_elapsed_this_step_flat': 100.9105019569397,
+ 'timesteps_so_far_flat': 277365212,
+ 'timesteps_this_step_flat': 1023488,
+ 'update_ratio_flat': 0.013300758973211167}
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=271 Optimizer flat theta_mean 1187.3355420596145 best po 1197.6971920878075 iteration spent 271
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=272 Optimizer flat theta_mean 1174.602239903856 best po 1222.5716192543018 iteration spent 272
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=273 Optimizer flat theta_mean 1190.3525635058904 best po 1181.078321298335 iteration spent 273
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=274 Optimizer flat theta_mean 1175.1198449995713 best po 1196.8928279337256 iteration spent 274
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=275 Optimizer flat theta_mean 1184.1069006337689 best po 1181.721635909486 iteration spent 275
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=276 Optimizer flat theta_mean 1191.8097168830632 best po 1196.6420590497141 iteration spent 276
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=277 Optimizer flat theta_mean 1151.7686978255451 best po 1220.6609668762633 iteration spent 277
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=278 Optimizer flat theta_mean 1188.431053199366 best po 1183.152331190016 iteration spent 278
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=279 Optimizer flat theta_mean 1185.5533512241418 best po 1198.1687497804405 iteration spent 279
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=280 Optimizer flat theta_mean 1190.6013906451344 best po 1215.2688700656888 iteration spent 280
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=281 Optimizer flat theta_mean 1144.873288429375 best po 1196.1184769356755 iteration spent 281
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=282 Optimizer flat theta_mean 1181.603418308643 best po 1219.152310193878 iteration spent 282
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=283 Optimizer flat theta_mean 1195.7092581966397 best po 1221.8811157288692 iteration spent 283
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=284 Optimizer flat theta_mean 1186.7128478906243 best po 1200.2720150622627 iteration spent 284
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=285 Optimizer flat theta_mean 1170.9189558129808 best po 1205.723315346916 iteration spent 285
+INFO:poet_distributed.logger:{'accept_theta_in_flat': 'self',
+ 'episodes_so_far_flat': 73216,
+ 'episodes_this_step_flat': 256,
+ 'eval_len_mean_flat': 1999.0,
+ 'eval_len_std_flat': 0.0,
+ 'eval_n_episodes_flat': 5,
+ 'eval_returns_mean_best_in_flat': None,
+ 'eval_returns_mean_best_with_ckpt_in_flat': None,
+ 'eval_returns_mean_flat': 1170.9189558129808,
+ 'eval_returns_mean_proposal_from_others_in_flat': None,
+ 'eval_returns_mean_theta_from_others_in_flat': None,
+ 'eval_returns_median_flat': 1170.9189558129808,
+ 'eval_returns_std_flat': 0.0,
+ 'grad_norm_flat': 11142.017578125,
+ 'iteration': 285,
+ 'learning_rate_flat': 0.00971803719003111,
+ 'noise_std_flat': 0.015023102428196966,
+ 'po_len_mean_flat': 1999.0,
+ 'po_len_std_flat': 0.0,
+ 'po_returns_max_flat': 1205.723315346916,
+ 'po_returns_mean_flat': -794.4618009350025,
+ 'po_returns_median_flat': 993.5398754327341,
+ 'po_returns_min_flat': -11727.429145814885,
+ 'po_returns_std_flat': 4122.800108895543,
+ 'theta_norm_flat': 186.10386034387355,
+ 'time_elapsed_so_far': 30329.291292905807,
+ 'time_elapsed_this_step_flat': 105.86032962799072,
+ 'timesteps_so_far_flat': 292717532,
+ 'timesteps_this_step_flat': 1023488,
+ 'update_ratio_flat': 0.012740825959239276}
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=286 Optimizer flat theta_mean 1164.5240873728155 best po 1213.5250219324532 iteration spent 286
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=287 Optimizer flat theta_mean 1155.6400116958805 best po 1190.5537874992526 iteration spent 287
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=288 Optimizer flat theta_mean 1109.0769290128903 best po 1205.466222629998 iteration spent 288
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=289 Optimizer flat theta_mean 1109.989616076202 best po 1198.1907105236112 iteration spent 289
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=290 Optimizer flat theta_mean 1183.5502275817696 best po 1204.104322573966 iteration spent 290
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=291 Optimizer flat theta_mean 1114.7341469537998 best po 1189.1108711743825 iteration spent 291
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=292 Optimizer flat theta_mean 1160.1717713839403 best po 1209.1041826214007 iteration spent 292
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=293 Optimizer flat theta_mean 1216.5775508843958 best po 1207.0767944402912 iteration spent 293
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=294 Optimizer flat theta_mean 1181.41044898867 best po 1196.8084644624614 iteration spent 294
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=295 Optimizer flat theta_mean 1154.2094366779613 best po 1221.1005696750256 iteration spent 295
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=296 Optimizer flat theta_mean 1156.3286643276294 best po 1223.4176920253215 iteration spent 296
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=297 Optimizer flat theta_mean 1137.4756465425992 best po 1201.63814369057 iteration spent 297
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=298 Optimizer flat theta_mean 1153.3087523534775 best po 1210.7054712223437 iteration spent 298
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=299 Optimizer flat theta_mean 1159.9946398111874 best po 1203.2241594060372 iteration spent 299
+INFO:poet_distributed.poet_algo:health_check
+INFO:poet_distributed.poet_algo:niche flat created at 0 start_score -68.21135441738639 current_self_evals 1159.9946398111874
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=300 Optimizer flat theta_mean 1152.2909500166766 best po 1200.2349043991144 iteration spent 300
+INFO:poet_distributed.logger:{'accept_theta_in_flat': 'self',
+ 'episodes_so_far_flat': 77056,
+ 'episodes_this_step_flat': 256,
+ 'eval_len_mean_flat': 1999.0,
+ 'eval_len_std_flat': 0.0,
+ 'eval_n_episodes_flat': 5,
+ 'eval_returns_mean_best_in_flat': None,
+ 'eval_returns_mean_best_with_ckpt_in_flat': None,
+ 'eval_returns_mean_flat': 1152.2909500166766,
+ 'eval_returns_mean_proposal_from_others_in_flat': None,
+ 'eval_returns_mean_theta_from_others_in_flat': None,
+ 'eval_returns_median_flat': 1152.2909500166766,
+ 'eval_returns_std_flat': 0.0,
+ 'grad_norm_flat': 11457.732421875,
+ 'iteration': 300,
+ 'learning_rate_flat': 0.009703470333764735,
+ 'noise_std_flat': 0.014799326502478864,
+ 'po_len_mean_flat': 1999.0,
+ 'po_len_std_flat': 0.0,
+ 'po_returns_max_flat': 1200.2349043991144,
+ 'po_returns_mean_flat': -741.1189089934463,
+ 'po_returns_median_flat': 1016.338860283757,
+ 'po_returns_min_flat': -11645.434383335156,
+ 'po_returns_std_flat': 4106.931598342713,
+ 'theta_norm_flat': 194.42241995687203,
+ 'time_elapsed_so_far': 31865.441820383072,
+ 'time_elapsed_this_step_flat': 102.65466547012329,
+ 'timesteps_so_far_flat': 308069852,
+ 'timesteps_this_step_flat': 1023488,
+ 'update_ratio_flat': 0.01304892860425708}
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=301 Optimizer flat theta_mean 1164.0102865035894 best po 1197.3329276812226 iteration spent 301
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=302 Optimizer flat theta_mean 1087.0478530757455 best po 1190.0619552815945 iteration spent 302
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=303 Optimizer flat theta_mean 1016.40398818711 best po 1200.7966701880669 iteration spent 303
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=304 Optimizer flat theta_mean 1093.3603853882798 best po 1207.1953911091894 iteration spent 304
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=305 Optimizer flat theta_mean 1120.0037468938992 best po 1199.063034088993 iteration spent 305
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=306 Optimizer flat theta_mean 1062.7992791730633 best po 1204.9946089023867 iteration spent 306
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=307 Optimizer flat theta_mean 1057.6629496887263 best po 1209.1653722340961 iteration spent 307
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=308 Optimizer flat theta_mean 1149.661993582999 best po 1212.6615677918276 iteration spent 308
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=309 Optimizer flat theta_mean 1164.1472433298225 best po 1194.9916337976865 iteration spent 309
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=310 Optimizer flat theta_mean 1189.707626264414 best po 1216.5773319197806 iteration spent 310
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=311 Optimizer flat theta_mean 1095.6377110098265 best po 1233.8725548026698 iteration spent 311
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=312 Optimizer flat theta_mean 1146.645724661051 best po 1197.5193861222872 iteration spent 312
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=313 Optimizer flat theta_mean 1129.7141109839692 best po 1208.0335407649225 iteration spent 313
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=314 Optimizer flat theta_mean 1155.1685886812568 best po 1185.2951075775104 iteration spent 314
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=315 Optimizer flat theta_mean 1171.2386543136834 best po 1178.4526399218778 iteration spent 315
+INFO:poet_distributed.logger:{'accept_theta_in_flat': 'self',
+ 'episodes_so_far_flat': 80896,
+ 'episodes_this_step_flat': 256,
+ 'eval_len_mean_flat': 1999.0,
+ 'eval_len_std_flat': 0.0,
+ 'eval_n_episodes_flat': 5,
+ 'eval_returns_mean_best_in_flat': None,
+ 'eval_returns_mean_best_with_ckpt_in_flat': None,
+ 'eval_returns_mean_flat': 1171.2386543136834,
+ 'eval_returns_mean_proposal_from_others_in_flat': None,
+ 'eval_returns_mean_theta_from_others_in_flat': None,
+ 'eval_returns_median_flat': 1171.2386543136834,
+ 'eval_returns_std_flat': 0.0,
+ 'grad_norm_flat': 12780.8681640625,
+ 'iteration': 315,
+ 'learning_rate_flat': 0.009688925312494184,
+ 'noise_std_flat': 0.014578883820687592,
+ 'po_len_mean_flat': 1999.0,
+ 'po_len_std_flat': 0.0,
+ 'po_returns_max_flat': 1178.4526399218778,
+ 'po_returns_mean_flat': -307.67431962817363,
+ 'po_returns_median_flat': 1025.935414764876,
+ 'po_returns_min_flat': -11899.488234644643,
+ 'po_returns_std_flat': 3584.0885277485863,
+ 'theta_norm_flat': 203.45518951423122,
+ 'time_elapsed_so_far': 33403.6212887764,
+ 'time_elapsed_this_step_flat': 101.87376832962036,
+ 'timesteps_so_far_flat': 323422172,
+ 'timesteps_this_step_flat': 1023488,
+ 'update_ratio_flat': 0.012520224166644119}
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=316 Optimizer flat theta_mean 1156.2827672820074 best po 1203.1153089390666 iteration spent 316
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=317 Optimizer flat theta_mean 1174.814166825392 best po 1205.6176811609562 iteration spent 317
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=318 Optimizer flat theta_mean 1158.998074212328 best po 1201.6843433629845 iteration spent 318
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=319 Optimizer flat theta_mean 1094.0290770354925 best po 1186.1987322404989 iteration spent 319
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=320 Optimizer flat theta_mean 1132.5567630856674 best po 1201.9133031914043 iteration spent 320
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=321 Optimizer flat theta_mean 1139.630104447831 best po 1213.9440992593795 iteration spent 321
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=322 Optimizer flat theta_mean 1107.7755025274168 best po 1188.8185490936164 iteration spent 322
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=323 Optimizer flat theta_mean 1163.3196113342158 best po 1196.812018933599 iteration spent 323
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=324 Optimizer flat theta_mean 1144.753242491591 best po 1178.6886208600024 iteration spent 324
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=325 Optimizer flat theta_mean 1186.8783858453423 best po 1194.1267942745606 iteration spent 325
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=326 Optimizer flat theta_mean 1066.3665914004482 best po 1203.501754724939 iteration spent 326
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=327 Optimizer flat theta_mean 1001.5350209302429 best po 1215.506847056346 iteration spent 327
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=328 Optimizer flat theta_mean 1148.1647229785356 best po 1180.450736099431 iteration spent 328
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=329 Optimizer flat theta_mean 1144.8206819046059 best po 1195.890371544839 iteration spent 329
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=330 Optimizer flat theta_mean 1160.2286678385055 best po 1212.7325863338003 iteration spent 330
+INFO:poet_distributed.logger:{'accept_theta_in_flat': 'self',
+ 'episodes_so_far_flat': 84736,
+ 'episodes_this_step_flat': 256,
+ 'eval_len_mean_flat': 1999.0,
+ 'eval_len_std_flat': 0.0,
+ 'eval_n_episodes_flat': 5,
+ 'eval_returns_mean_best_in_flat': None,
+ 'eval_returns_mean_best_with_ckpt_in_flat': None,
+ 'eval_returns_mean_flat': 1160.2286678385055,
+ 'eval_returns_mean_proposal_from_others_in_flat': None,
+ 'eval_returns_mean_theta_from_others_in_flat': None,
+ 'eval_returns_median_flat': 1160.2286678385055,
+ 'eval_returns_std_flat': 0.0,
+ 'grad_norm_flat': 14507.025390625,
+ 'iteration': 330,
+ 'learning_rate_flat': 0.009674402093489885,
+ 'noise_std_flat': 0.014361724732642776,
+ 'po_len_mean_flat': 1999.0,
+ 'po_len_std_flat': 0.0,
+ 'po_returns_max_flat': 1212.7325863338003,
+ 'po_returns_mean_flat': -659.1261526149882,
+ 'po_returns_median_flat': 1033.9517799045752,
+ 'po_returns_min_flat': -11947.600143303738,
+ 'po_returns_std_flat': 4063.676166130378,
+ 'theta_norm_flat': 212.03517093707214,
+ 'time_elapsed_so_far': 34942.82077217102,
+ 'time_elapsed_this_step_flat': 100.93591141700745,
+ 'timesteps_so_far_flat': 338774492,
+ 'timesteps_this_step_flat': 1023488,
+ 'update_ratio_flat': 0.012595414442726095}
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=331 Optimizer flat theta_mean 1205.4280391291993 best po 1215.553236491766 iteration spent 331
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=332 Optimizer flat theta_mean 1190.8220562287847 best po 1201.6245249891 iteration spent 332
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=333 Optimizer flat theta_mean 1149.4684679886973 best po 1192.8378899622214 iteration spent 333
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=334 Optimizer flat theta_mean 1151.4426815234071 best po 1188.9046350278581 iteration spent 334
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=335 Optimizer flat theta_mean 1160.9229415468917 best po 1197.1551456835443 iteration spent 335
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=336 Optimizer flat theta_mean 1154.5329287418633 best po 1206.0430965066241 iteration spent 336
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=337 Optimizer flat theta_mean 1183.3050101767487 best po 1225.734201303461 iteration spent 337
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=338 Optimizer flat theta_mean 1158.929213358541 best po 1193.5984670913772 iteration spent 338
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=339 Optimizer flat theta_mean 1115.3111126071403 best po 1182.0541679881105 iteration spent 339
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=340 Optimizer flat theta_mean 1175.401795088359 best po 1194.5019914088093 iteration spent 340
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=341 Optimizer flat theta_mean 1169.8625507590277 best po 1195.121123826608 iteration spent 341
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=342 Optimizer flat theta_mean 1162.4394569535684 best po 1209.450762024443 iteration spent 342
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=343 Optimizer flat theta_mean 1167.9755181862974 best po 1207.0171541045017 iteration spent 343
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=344 Optimizer flat theta_mean 1159.1965362711412 best po 1211.0749279356 iteration spent 344
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=345 Optimizer flat theta_mean 1193.1726784401155 best po 1223.8832028009408 iteration spent 345
+INFO:poet_distributed.logger:{'accept_theta_in_flat': 'self',
+ 'episodes_so_far_flat': 88576,
+ 'episodes_this_step_flat': 256,
+ 'eval_len_mean_flat': 1999.0,
+ 'eval_len_std_flat': 0.0,
+ 'eval_n_episodes_flat': 5,
+ 'eval_returns_mean_best_in_flat': None,
+ 'eval_returns_mean_best_with_ckpt_in_flat': None,
+ 'eval_returns_mean_flat': 1193.1726784401155,
+ 'eval_returns_mean_proposal_from_others_in_flat': None,
+ 'eval_returns_mean_theta_from_others_in_flat': None,
+ 'eval_returns_median_flat': 1193.1726784401155,
+ 'eval_returns_std_flat': 0.0,
+ 'grad_norm_flat': 12577.525390625,
+ 'iteration': 345,
+ 'learning_rate_flat': 0.009659900644071316,
+ 'noise_std_flat': 0.014147800327726006,
+ 'po_len_mean_flat': 1999.0,
+ 'po_len_std_flat': 0.0,
+ 'po_returns_max_flat': 1223.8832028009408,
+ 'po_returns_mean_flat': -512.8974735699917,
+ 'po_returns_median_flat': 1023.6123521509523,
+ 'po_returns_min_flat': -12122.93957748197,
+ 'po_returns_std_flat': 3853.3565967221607,
+ 'theta_norm_flat': 222.70715573410718,
+ 'time_elapsed_so_far': 36536.67886471748,
+ 'time_elapsed_this_step_flat': 116.92605662345886,
+ 'timesteps_so_far_flat': 354126812,
+ 'timesteps_this_step_flat': 1023488,
+ 'update_ratio_flat': 0.01156787231457804}
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=346 Optimizer flat theta_mean 1142.0780035823027 best po 1207.380957184633 iteration spent 346
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=347 Optimizer flat theta_mean 1161.1449141291603 best po 1204.9437468653698 iteration spent 347
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=348 Optimizer flat theta_mean 1179.584062411648 best po 1214.2734258267894 iteration spent 348
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=349 Optimizer flat theta_mean 1196.9082742688042 best po 1185.4635505634985 iteration spent 349
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=350 Optimizer flat theta_mean 1175.1101829353263 best po 1189.6338567094529 iteration spent 350
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=351 Optimizer flat theta_mean 1183.5891840163083 best po 1210.20236295862 iteration spent 351
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=352 Optimizer flat theta_mean 1163.2009312702394 best po 1182.698334910225 iteration spent 352
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=353 Optimizer flat theta_mean 1194.8348368681197 best po 1209.4043091845124 iteration spent 353
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=354 Optimizer flat theta_mean 1182.9488186705605 best po 1194.871262014685 iteration spent 354
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=355 Optimizer flat theta_mean 1199.0892751911533 best po 1202.3267785499286 iteration spent 355
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=356 Optimizer flat theta_mean 1207.5263542558096 best po 1184.8151368865776 iteration spent 356
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=357 Optimizer flat theta_mean 1175.3712555184377 best po 1189.4771827213622 iteration spent 357
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=358 Optimizer flat theta_mean 1137.8704003933105 best po 1207.212251225243 iteration spent 358
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=359 Optimizer flat theta_mean 1143.762354434074 best po 1214.0882714187023 iteration spent 359
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=360 Optimizer flat theta_mean 1111.8451896336142 best po 1189.8862083779527 iteration spent 360
+INFO:poet_distributed.logger:{'accept_theta_in_flat': 'self',
+ 'episodes_so_far_flat': 92416,
+ 'episodes_this_step_flat': 256,
+ 'eval_len_mean_flat': 1999.0,
+ 'eval_len_std_flat': 0.0,
+ 'eval_n_episodes_flat': 5,
+ 'eval_returns_mean_best_in_flat': None,
+ 'eval_returns_mean_best_with_ckpt_in_flat': None,
+ 'eval_returns_mean_flat': 1111.8451896336142,
+ 'eval_returns_mean_proposal_from_others_in_flat': None,
+ 'eval_returns_mean_theta_from_others_in_flat': None,
+ 'eval_returns_median_flat': 1111.8451896336142,
+ 'eval_returns_std_flat': 0.0,
+ 'grad_norm_flat': 15017.603515625,
+ 'iteration': 360,
+ 'learning_rate_flat': 0.00964542093160695,
+ 'noise_std_flat': 0.01393706242386471,
+ 'po_len_mean_flat': 1999.0,
+ 'po_len_std_flat': 0.0,
+ 'po_returns_max_flat': 1189.8862083779527,
+ 'po_returns_mean_flat': -955.8635583812058,
+ 'po_returns_median_flat': 1018.716781865364,
+ 'po_returns_min_flat': -11669.063030000063,
+ 'po_returns_std_flat': 4293.135158694312,
+ 'theta_norm_flat': 231.06053670771536,
+ 'time_elapsed_so_far': 38083.16453719139,
+ 'time_elapsed_this_step_flat': 101.01573491096497,
+ 'timesteps_so_far_flat': 369479132,
+ 'timesteps_this_step_flat': 1023488,
+ 'update_ratio_flat': 0.011774453077646189}
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=361 Optimizer flat theta_mean 1113.9911687478298 best po 1182.9859112027623 iteration spent 361
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=362 Optimizer flat theta_mean 1068.6558327323057 best po 1192.6235062408332 iteration spent 362
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=363 Optimizer flat theta_mean 1079.0719455117744 best po 1175.605321872538 iteration spent 363
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=364 Optimizer flat theta_mean 1058.6414982416259 best po 1152.5711196261561 iteration spent 364
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=365 Optimizer flat theta_mean 1021.4816316110486 best po 1165.4882120670754 iteration spent 365
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=366 Optimizer flat theta_mean 1080.0669457834836 best po 1172.4665269307031 iteration spent 366
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=367 Optimizer flat theta_mean 1097.3107333747253 best po 1175.5816300441154 iteration spent 367
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=368 Optimizer flat theta_mean 1148.3356974799733 best po 1184.9326326887433 iteration spent 368
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=369 Optimizer flat theta_mean 988.9888831870596 best po 1155.9206889794891 iteration spent 369
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=370 Optimizer flat theta_mean 1020.3965229861744 best po 1189.2456020754807 iteration spent 370
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=371 Optimizer flat theta_mean 1135.2265491677047 best po 1163.308595999628 iteration spent 371
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=372 Optimizer flat theta_mean 1126.210899553607 best po 1165.1821894753857 iteration spent 372
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=373 Optimizer flat theta_mean 1132.5397622921005 best po 1177.1775764802067 iteration spent 373
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=374 Optimizer flat theta_mean 1152.1844922018604 best po 1171.9499171428383 iteration spent 374
+INFO:poet_distributed.poet_algo:health_check
+INFO:poet_distributed.poet_algo:niche flat created at 0 start_score -68.21135441738639 current_self_evals 1152.1844922018604
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=375 Optimizer flat theta_mean 1092.7027172845508 best po 1166.4547574703092 iteration spent 375
+INFO:poet_distributed.logger:{'accept_theta_in_flat': 'self',
+ 'episodes_so_far_flat': 96256,
+ 'episodes_this_step_flat': 256,
+ 'eval_len_mean_flat': 1999.0,
+ 'eval_len_std_flat': 0.0,
+ 'eval_n_episodes_flat': 5,
+ 'eval_returns_mean_best_in_flat': None,
+ 'eval_returns_mean_best_with_ckpt_in_flat': None,
+ 'eval_returns_mean_flat': 1092.7027172845508,
+ 'eval_returns_mean_proposal_from_others_in_flat': None,
+ 'eval_returns_mean_theta_from_others_in_flat': None,
+ 'eval_returns_median_flat': 1092.7027172845508,
+ 'eval_returns_std_flat': 0.0,
+ 'grad_norm_flat': 13833.98046875,
+ 'iteration': 375,
+ 'learning_rate_flat': 0.009630962923514166,
+ 'noise_std_flat': 0.013729463556680149,
+ 'po_len_mean_flat': 1999.0,
+ 'po_len_std_flat': 0.0,
+ 'po_returns_max_flat': 1166.4547574703092,
+ 'po_returns_mean_flat': -692.4548001868968,
+ 'po_returns_median_flat': 986.3686845983875,
+ 'po_returns_min_flat': -12041.437281206781,
+ 'po_returns_std_flat': 3946.09638024836,
+ 'theta_norm_flat': 238.65236831807036,
+ 'time_elapsed_so_far': 39634.866052150726,
+ 'time_elapsed_this_step_flat': 105.00918793678284,
+ 'timesteps_so_far_flat': 384831452,
+ 'timesteps_this_step_flat': 1023488,
+ 'update_ratio_flat': 0.011796242072907078}
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=376 Optimizer flat theta_mean 1089.679034343674 best po 1161.4808112393343 iteration spent 376
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=377 Optimizer flat theta_mean 1182.5104261349593 best po 1192.3737963352955 iteration spent 377
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=378 Optimizer flat theta_mean 1117.1383589199227 best po 1201.655789199942 iteration spent 378
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=379 Optimizer flat theta_mean 1118.2315287119288 best po 1158.4072417464954 iteration spent 379
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=380 Optimizer flat theta_mean 1090.6234266069553 best po 1161.643818095535 iteration spent 380
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=381 Optimizer flat theta_mean 1139.757578210484 best po 1212.7492805503616 iteration spent 381
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=382 Optimizer flat theta_mean 1147.3656248064367 best po 1180.801544837659 iteration spent 382
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=383 Optimizer flat theta_mean 1063.420013680712 best po 1180.2530621453338 iteration spent 383
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=384 Optimizer flat theta_mean 972.3699882610638 best po 1182.1592293496235 iteration spent 384
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=385 Optimizer flat theta_mean 1149.2822528711001 best po 1163.617037959954 iteration spent 385
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=386 Optimizer flat theta_mean 1089.3149789994081 best po 1165.2098872128015 iteration spent 386
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=387 Optimizer flat theta_mean 1156.8217500215173 best po 1168.3460437004203 iteration spent 387
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=388 Optimizer flat theta_mean 1138.6494772639517 best po 1154.4083382524132 iteration spent 388
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=389 Optimizer flat theta_mean 1147.8321079505026 best po 1173.6603080124485 iteration spent 389
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=390 Optimizer flat theta_mean 1163.1563316896463 best po 1176.9505231725616 iteration spent 390
+INFO:poet_distributed.logger:{'accept_theta_in_flat': 'self',
+ 'episodes_so_far_flat': 100096,
+ 'episodes_this_step_flat': 256,
+ 'eval_len_mean_flat': 1999.0,
+ 'eval_len_std_flat': 0.0,
+ 'eval_n_episodes_flat': 5,
+ 'eval_returns_mean_best_in_flat': None,
+ 'eval_returns_mean_best_with_ckpt_in_flat': None,
+ 'eval_returns_mean_flat': 1163.1563316896463,
+ 'eval_returns_mean_proposal_from_others_in_flat': None,
+ 'eval_returns_mean_theta_from_others_in_flat': None,
+ 'eval_returns_median_flat': 1163.1563316896463,
+ 'eval_returns_std_flat': 0.0,
+ 'grad_norm_flat': 14308.7392578125,
+ 'iteration': 390,
+ 'learning_rate_flat': 0.009616526587259193,
+ 'noise_std_flat': 0.013524956968797035,
+ 'po_len_mean_flat': 1999.0,
+ 'po_len_std_flat': 0.0,
+ 'po_returns_max_flat': 1176.9505231725616,
+ 'po_returns_mean_flat': -280.8396242099243,
+ 'po_returns_median_flat': 986.9966308363887,
+ 'po_returns_min_flat': -11702.136378251125,
+ 'po_returns_std_flat': 3330.0163536679397,
+ 'theta_norm_flat': 246.4653890035421,
+ 'time_elapsed_so_far': 41169.80707216263,
+ 'time_elapsed_this_step_flat': 100.05383563041687,
+ 'timesteps_so_far_flat': 400183772,
+ 'timesteps_this_step_flat': 1023488,
+ 'update_ratio_flat': 0.01111146679620853}
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=391 Optimizer flat theta_mean 1093.7773752376659 best po 1181.6294478270859 iteration spent 391
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=392 Optimizer flat theta_mean 1162.2500196582457 best po 1227.3843400430892 iteration spent 392
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=393 Optimizer flat theta_mean 1157.973802659971 best po 1174.5865267525407 iteration spent 393
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=394 Optimizer flat theta_mean 1170.0707844218691 best po 1174.6268999914826 iteration spent 394
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=395 Optimizer flat theta_mean 1135.667342632264 best po 1191.4505124748214 iteration spent 395
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=396 Optimizer flat theta_mean 1072.1556347121505 best po 1202.0973412847618 iteration spent 396
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=397 Optimizer flat theta_mean 1136.3481421161919 best po 1197.4938466274273 iteration spent 397
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=398 Optimizer flat theta_mean 1077.242974751389 best po 1173.4382514358665 iteration spent 398
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=399 Optimizer flat theta_mean 1101.5918369929916 best po 1167.5548741628065 iteration spent 399
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=400 Optimizer flat theta_mean 1163.422169357491 best po 1174.8565713752066 iteration spent 400
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=401 Optimizer flat theta_mean 1151.4901684651165 best po 1175.4447506898568 iteration spent 401
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=402 Optimizer flat theta_mean 1162.2085780838613 best po 1180.4061414329983 iteration spent 402
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=403 Optimizer flat theta_mean 1163.240919005014 best po 1167.3375259212512 iteration spent 403
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=404 Optimizer flat theta_mean 1129.8328630121293 best po 1184.4012252118036 iteration spent 404
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=405 Optimizer flat theta_mean 1149.139962864971 best po 1180.953730492602 iteration spent 405
+INFO:poet_distributed.logger:{'accept_theta_in_flat': 'self',
+ 'episodes_so_far_flat': 103936,
+ 'episodes_this_step_flat': 256,
+ 'eval_len_mean_flat': 1999.0,
+ 'eval_len_std_flat': 0.0,
+ 'eval_n_episodes_flat': 5,
+ 'eval_returns_mean_best_in_flat': None,
+ 'eval_returns_mean_best_with_ckpt_in_flat': None,
+ 'eval_returns_mean_flat': 1149.139962864971,
+ 'eval_returns_mean_proposal_from_others_in_flat': None,
+ 'eval_returns_mean_theta_from_others_in_flat': None,
+ 'eval_returns_median_flat': 1149.139962864971,
+ 'eval_returns_std_flat': 0.0,
+ 'grad_norm_flat': 13979.7314453125,
+ 'iteration': 405,
+ 'learning_rate_flat': 0.009602111890357016,
+ 'noise_std_flat': 0.0133234965993124,
+ 'po_len_mean_flat': 1999.0,
+ 'po_len_std_flat': 0.0,
+ 'po_returns_max_flat': 1180.953730492602,
+ 'po_returns_mean_flat': -60.065785397971666,
+ 'po_returns_median_flat': 1035.0522342391864,
+ 'po_returns_min_flat': -11982.07162359965,
+ 'po_returns_std_flat': 3038.8906931329666,
+ 'theta_norm_flat': 254.88414951590073,
+ 'time_elapsed_so_far': 42719.398684978485,
+ 'time_elapsed_this_step_flat': 103.74741530418396,
+ 'timesteps_so_far_flat': 415536092,
+ 'timesteps_this_step_flat': 1023488,
+ 'update_ratio_flat': 0.011132283753303772}
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=406 Optimizer flat theta_mean 1167.4249916294627 best po 1196.6907153006687 iteration spent 406
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=407 Optimizer flat theta_mean 1185.559903353577 best po 1193.4079857376023 iteration spent 407
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=408 Optimizer flat theta_mean 1141.9391690270545 best po 1183.6352397793137 iteration spent 408
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=409 Optimizer flat theta_mean 1154.5769092831135 best po 1175.863112113517 iteration spent 409
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=410 Optimizer flat theta_mean 1155.3011837352637 best po 1178.938680034285 iteration spent 410
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=411 Optimizer flat theta_mean 1099.279277683642 best po 1164.0305861801107 iteration spent 411
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=412 Optimizer flat theta_mean 1157.1021529303116 best po 1179.6842774213117 iteration spent 412
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=413 Optimizer flat theta_mean 1150.201614883998 best po 1197.3136977822294 iteration spent 413
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=414 Optimizer flat theta_mean 1129.7211660387031 best po 1184.5010663398675 iteration spent 414
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=415 Optimizer flat theta_mean 1149.606586728636 best po 1189.5049031315923 iteration spent 415
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=416 Optimizer flat theta_mean 1127.4299169985397 best po 1180.4754173363744 iteration spent 416
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=417 Optimizer flat theta_mean 1104.0367673445514 best po 1189.3371551544956 iteration spent 417
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=418 Optimizer flat theta_mean 1129.1353192795107 best po 1172.0149230880631 iteration spent 418
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=419 Optimizer flat theta_mean 1146.5798718897108 best po 1201.9912124763566 iteration spent 419
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=420 Optimizer flat theta_mean 1074.126250122861 best po 1209.4276785531215 iteration spent 420
+INFO:poet_distributed.logger:{'accept_theta_in_flat': 'self',
+ 'episodes_so_far_flat': 107776,
+ 'episodes_this_step_flat': 256,
+ 'eval_len_mean_flat': 1999.0,
+ 'eval_len_std_flat': 0.0,
+ 'eval_n_episodes_flat': 5,
+ 'eval_returns_mean_best_in_flat': None,
+ 'eval_returns_mean_best_with_ckpt_in_flat': None,
+ 'eval_returns_mean_flat': 1074.126250122861,
+ 'eval_returns_mean_proposal_from_others_in_flat': None,
+ 'eval_returns_mean_theta_from_others_in_flat': None,
+ 'eval_returns_median_flat': 1074.126250122861,
+ 'eval_returns_std_flat': 0.0,
+ 'grad_norm_flat': 16860.55078125,
+ 'iteration': 420,
+ 'learning_rate_flat': 0.009587718800371316,
+ 'noise_std_flat': 0.013125037073421315,
+ 'po_len_mean_flat': 1999.0,
+ 'po_len_std_flat': 0.0,
+ 'po_returns_max_flat': 1209.4276785531215,
+ 'po_returns_mean_flat': -34.69617331298508,
+ 'po_returns_median_flat': 1045.625114539212,
+ 'po_returns_min_flat': -11651.833081734212,
+ 'po_returns_std_flat': 2980.509061204114,
+ 'theta_norm_flat': 262.21429246956563,
+ 'time_elapsed_so_far': 44271.82670044899,
+ 'time_elapsed_this_step_flat': 102.73142337799072,
+ 'timesteps_so_far_flat': 430888412,
+ 'timesteps_this_step_flat': 1023488,
+ 'update_ratio_flat': 0.011151722318638948}
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=421 Optimizer flat theta_mean 1134.532078658321 best po 1198.8715021409046 iteration spent 421
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=422 Optimizer flat theta_mean 1167.108151949075 best po 1204.3353235589702 iteration spent 422
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=423 Optimizer flat theta_mean 1155.7290805373416 best po 1213.2466896750416 iteration spent 423
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=424 Optimizer flat theta_mean 1211.0234654757262 best po 1215.7274754743162 iteration spent 424
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=425 Optimizer flat theta_mean 1153.8678316782793 best po 1213.2405793737846 iteration spent 425
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=426 Optimizer flat theta_mean 1201.4003654874991 best po 1225.7304415350081 iteration spent 426
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=427 Optimizer flat theta_mean 1183.0730517984434 best po 1220.868071708266 iteration spent 427
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=428 Optimizer flat theta_mean 1177.606914764162 best po 1216.2588142060072 iteration spent 428
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=429 Optimizer flat theta_mean 1171.30496027297 best po 1212.7182230233736 iteration spent 429
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=430 Optimizer flat theta_mean 1150.969337785181 best po 1207.5629901030732 iteration spent 430
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=431 Optimizer flat theta_mean 1148.7103925794356 best po 1219.9229148992722 iteration spent 431
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=432 Optimizer flat theta_mean 1158.9104625555453 best po 1231.8608219602045 iteration spent 432
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=433 Optimizer flat theta_mean 1182.7848454093332 best po 1202.9646734431922 iteration spent 433
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=434 Optimizer flat theta_mean 1093.2829340781968 best po 1215.9385312840673 iteration spent 434
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=435 Optimizer flat theta_mean 1101.2013268091496 best po 1191.4386889655498 iteration spent 435
+INFO:poet_distributed.logger:{'accept_theta_in_flat': 'self',
+ 'episodes_so_far_flat': 111616,
+ 'episodes_this_step_flat': 256,
+ 'eval_len_mean_flat': 1999.0,
+ 'eval_len_std_flat': 0.0,
+ 'eval_n_episodes_flat': 5,
+ 'eval_returns_mean_best_in_flat': None,
+ 'eval_returns_mean_best_with_ckpt_in_flat': None,
+ 'eval_returns_mean_flat': 1101.2013268091496,
+ 'eval_returns_mean_proposal_from_others_in_flat': None,
+ 'eval_returns_mean_theta_from_others_in_flat': None,
+ 'eval_returns_median_flat': 1101.2013268091496,
+ 'eval_returns_std_flat': 0.0,
+ 'grad_norm_flat': 17634.98828125,
+ 'iteration': 435,
+ 'learning_rate_flat': 0.009573347284914395,
+ 'noise_std_flat': 0.012929533692197162,
+ 'po_len_mean_flat': 1999.0,
+ 'po_len_std_flat': 0.0,
+ 'po_returns_max_flat': 1191.4386889655498,
+ 'po_returns_mean_flat': -472.7354358443064,
+ 'po_returns_median_flat': 1035.1563220930575,
+ 'po_returns_min_flat': -11506.13688240131,
+ 'po_returns_std_flat': 3686.6601499765634,
+ 'theta_norm_flat': 269.2159652491933,
+ 'time_elapsed_so_far': 45819.56060504913,
+ 'time_elapsed_this_step_flat': 103.16087031364441,
+ 'timesteps_so_far_flat': 446240732,
+ 'timesteps_this_step_flat': 1023488,
+ 'update_ratio_flat': 0.011468690433961795}
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=436 Optimizer flat theta_mean 1136.1893107635603 best po 1182.2644224448304 iteration spent 436
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=437 Optimizer flat theta_mean 1176.0173552524993 best po 1188.1298058571915 iteration spent 437
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=438 Optimizer flat theta_mean 1173.7639743012533 best po 1188.106444091066 iteration spent 438
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=439 Optimizer flat theta_mean 1168.5770222799542 best po 1194.6301509668021 iteration spent 439
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=440 Optimizer flat theta_mean 1166.1830117745194 best po 1190.536535280172 iteration spent 440
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=441 Optimizer flat theta_mean 1182.1440900314865 best po 1179.5367473969325 iteration spent 441
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=442 Optimizer flat theta_mean 1176.488168842921 best po 1175.9886604402316 iteration spent 442
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=443 Optimizer flat theta_mean 1158.4720273015532 best po 1186.9970179361378 iteration spent 443
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=444 Optimizer flat theta_mean 1163.6106872300063 best po 1205.1611387180487 iteration spent 444
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=445 Optimizer flat theta_mean 1136.928050032733 best po 1168.3630024392073 iteration spent 445
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=446 Optimizer flat theta_mean 1114.624204481362 best po 1171.5352065489942 iteration spent 446
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=447 Optimizer flat theta_mean 1143.6020599599244 best po 1184.484093253086 iteration spent 447
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=448 Optimizer flat theta_mean 1136.6724682404945 best po 1169.542538527515 iteration spent 448
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=449 Optimizer flat theta_mean 1083.4699324709109 best po 1156.2578541523187 iteration spent 449
+INFO:poet_distributed.poet_algo:health_check
+INFO:poet_distributed.poet_algo:niche flat created at 0 start_score -68.21135441738639 current_self_evals 1083.4699324709109
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=450 Optimizer flat theta_mean 1129.4254878995728 best po 1144.790398931038 iteration spent 450
+INFO:poet_distributed.logger:{'accept_theta_in_flat': 'self',
+ 'episodes_so_far_flat': 115456,
+ 'episodes_this_step_flat': 256,
+ 'eval_len_mean_flat': 1999.0,
+ 'eval_len_std_flat': 0.0,
+ 'eval_n_episodes_flat': 5,
+ 'eval_returns_mean_best_in_flat': None,
+ 'eval_returns_mean_best_with_ckpt_in_flat': None,
+ 'eval_returns_mean_flat': 1129.4254878995728,
+ 'eval_returns_mean_proposal_from_others_in_flat': None,
+ 'eval_returns_mean_theta_from_others_in_flat': None,
+ 'eval_returns_median_flat': 1129.4254878995728,
+ 'eval_returns_std_flat': 0.0,
+ 'grad_norm_flat': 18817.662109375,
+ 'iteration': 450,
+ 'learning_rate_flat': 0.009558997311647109,
+ 'noise_std_flat': 0.012736942422524105,
+ 'po_len_mean_flat': 1999.0,
+ 'po_len_std_flat': 0.0,
+ 'po_returns_max_flat': 1144.790398931038,
+ 'po_returns_mean_flat': -393.0125695599769,
+ 'po_returns_median_flat': 979.1263496557629,
+ 'po_returns_min_flat': -11754.309298045027,
+ 'po_returns_std_flat': 3600.298134909357,
+ 'theta_norm_flat': 276.45105868261555,
+ 'time_elapsed_so_far': 47381.58102560043,
+ 'time_elapsed_this_step_flat': 103.47269463539124,
+ 'timesteps_so_far_flat': 461593052,
+ 'timesteps_this_step_flat': 1023488,
+ 'update_ratio_flat': 0.011512445571242591}
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=451 Optimizer flat theta_mean 1101.9043665040108 best po 1149.9266988400434 iteration spent 451
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=452 Optimizer flat theta_mean 1067.1200922682667 best po 1141.7847929124305 iteration spent 452
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=453 Optimizer flat theta_mean 1143.3573573112906 best po 1160.4434467029594 iteration spent 453
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=454 Optimizer flat theta_mean 1090.0329111940136 best po 1194.723750595974 iteration spent 454
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=455 Optimizer flat theta_mean 1088.8265671463212 best po 1180.4172668524407 iteration spent 455
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=456 Optimizer flat theta_mean 1070.7204130326822 best po 1174.882349314953 iteration spent 456
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=457 Optimizer flat theta_mean 1131.5100581483334 best po 1190.3933536040483 iteration spent 457
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=458 Optimizer flat theta_mean 1134.921616146915 best po 1182.3967385564993 iteration spent 458
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=459 Optimizer flat theta_mean 1114.3214926030075 best po 1149.3674465600207 iteration spent 459
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=460 Optimizer flat theta_mean 1104.3192042954697 best po 1191.315156223937 iteration spent 460
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=461 Optimizer flat theta_mean 1168.3309777685226 best po 1164.76497191508 iteration spent 461
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=462 Optimizer flat theta_mean 1117.0397666215833 best po 1176.6921517356434 iteration spent 462
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=463 Optimizer flat theta_mean 1152.6560802687527 best po 1192.4865023753312 iteration spent 463
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=464 Optimizer flat theta_mean 1097.6666565301277 best po 1178.8108305642481 iteration spent 464
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=465 Optimizer flat theta_mean 1122.8646910431078 best po 1172.9354142206057 iteration spent 465
+INFO:poet_distributed.logger:{'accept_theta_in_flat': 'self',
+ 'episodes_so_far_flat': 119296,
+ 'episodes_this_step_flat': 256,
+ 'eval_len_mean_flat': 1999.0,
+ 'eval_len_std_flat': 0.0,
+ 'eval_n_episodes_flat': 5,
+ 'eval_returns_mean_best_in_flat': None,
+ 'eval_returns_mean_best_with_ckpt_in_flat': None,
+ 'eval_returns_mean_flat': 1122.8646910431078,
+ 'eval_returns_mean_proposal_from_others_in_flat': None,
+ 'eval_returns_mean_theta_from_others_in_flat': None,
+ 'eval_returns_median_flat': 1122.8646910431078,
+ 'eval_returns_std_flat': 0.0,
+ 'grad_norm_flat': 17172.76171875,
+ 'iteration': 465,
+ 'learning_rate_flat': 0.009544668848278776,
+ 'noise_std_flat': 0.012547219887179547,
+ 'po_len_mean_flat': 1999.0,
+ 'po_len_std_flat': 0.0,
+ 'po_returns_max_flat': 1172.9354142206057,
+ 'po_returns_mean_flat': -411.4078228901002,
+ 'po_returns_median_flat': 1021.8879073837338,
+ 'po_returns_min_flat': -11746.183317352765,
+ 'po_returns_std_flat': 3576.186280915148,
+ 'theta_norm_flat': 286.5556708562566,
+ 'time_elapsed_so_far': 48944.85561513901,
+ 'time_elapsed_this_step_flat': 101.54830956459045,
+ 'timesteps_so_far_flat': 476945372,
+ 'timesteps_this_step_flat': 1023488,
+ 'update_ratio_flat': 0.010940268119843784}
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=466 Optimizer flat theta_mean 1107.6940345345251 best po 1187.7143780159463 iteration spent 466
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=467 Optimizer flat theta_mean 1137.0176760434083 best po 1176.0620836912792 iteration spent 467
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=468 Optimizer flat theta_mean 1139.2743921075876 best po 1205.330172523771 iteration spent 468
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=469 Optimizer flat theta_mean 1138.0555584694032 best po 1176.0145508241749 iteration spent 469
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=470 Optimizer flat theta_mean 1109.5119341321536 best po 1179.5119778271187 iteration spent 470
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=471 Optimizer flat theta_mean 1128.772275479887 best po 1191.8579016205133 iteration spent 471
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=472 Optimizer flat theta_mean 1133.0779148400195 best po 1184.084970711425 iteration spent 472
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=473 Optimizer flat theta_mean 1099.9722526468524 best po 1176.5666570109925 iteration spent 473
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=474 Optimizer flat theta_mean 1147.101108245963 best po 1176.5230654470859 iteration spent 474
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=475 Optimizer flat theta_mean 1144.6053352950255 best po 1168.391492285733 iteration spent 475
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=476 Optimizer flat theta_mean 1117.7128635987335 best po 1210.670561974412 iteration spent 476
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=477 Optimizer flat theta_mean 1145.3838636286046 best po 1175.7028117690866 iteration spent 477
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=478 Optimizer flat theta_mean 1132.6875999378085 best po 1187.8629530166545 iteration spent 478
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=479 Optimizer flat theta_mean 1142.0491609270496 best po 1223.2266387480813 iteration spent 479
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=480 Optimizer flat theta_mean 1126.69975464215 best po 1186.0585778643465 iteration spent 480
+INFO:poet_distributed.logger:{'accept_theta_in_flat': 'self',
+ 'episodes_so_far_flat': 123136,
+ 'episodes_this_step_flat': 256,
+ 'eval_len_mean_flat': 1999.0,
+ 'eval_len_std_flat': 0.0,
+ 'eval_n_episodes_flat': 5,
+ 'eval_returns_mean_best_in_flat': None,
+ 'eval_returns_mean_best_with_ckpt_in_flat': None,
+ 'eval_returns_mean_flat': 1126.69975464215,
+ 'eval_returns_mean_proposal_from_others_in_flat': None,
+ 'eval_returns_mean_theta_from_others_in_flat': None,
+ 'eval_returns_median_flat': 1126.69975464215,
+ 'eval_returns_std_flat': 0.0,
+ 'grad_norm_flat': 16760.107421875,
+ 'iteration': 480,
+ 'learning_rate_flat': 0.009530361862567128,
+ 'noise_std_flat': 0.0123603233550643,
+ 'po_len_mean_flat': 1999.0,
+ 'po_len_std_flat': 0.0,
+ 'po_returns_max_flat': 1186.0585778643465,
+ 'po_returns_mean_flat': -381.5042703531924,
+ 'po_returns_median_flat': 1044.5742487890093,
+ 'po_returns_min_flat': -11693.668785473536,
+ 'po_returns_std_flat': 3661.909590318795,
+ 'theta_norm_flat': 298.16569731916695,
+ 'time_elapsed_so_far': 50513.210958004,
+ 'time_elapsed_this_step_flat': 102.70883846282959,
+ 'timesteps_so_far_flat': 492297692,
+ 'timesteps_this_step_flat': 1023488,
+ 'update_ratio_flat': 0.010387696475247985}
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=481 Optimizer flat theta_mean 1129.3726576852193 best po 1189.7665015357645 iteration spent 481
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=482 Optimizer flat theta_mean 1154.3550338441178 best po 1189.6390971696355 iteration spent 482
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=483 Optimizer flat theta_mean 1148.7189404136948 best po 1204.419978782721 iteration spent 483
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=484 Optimizer flat theta_mean 1158.0945332668887 best po 1176.3315889723679 iteration spent 484
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=485 Optimizer flat theta_mean 1178.3471415306108 best po 1208.6421520199222 iteration spent 485
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=486 Optimizer flat theta_mean 1096.575130171363 best po 1179.4751062669343 iteration spent 486
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=487 Optimizer flat theta_mean 1174.3135007645856 best po 1204.9878866184204 iteration spent 487
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=488 Optimizer flat theta_mean 1161.611458825582 best po 1198.5465286932888 iteration spent 488
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=489 Optimizer flat theta_mean 1063.7930683203172 best po 1193.6986355312192 iteration spent 489
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=490 Optimizer flat theta_mean 1124.945376253753 best po 1210.6764086420712 iteration spent 490
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=491 Optimizer flat theta_mean 1153.0366154035694 best po 1179.4751446323814 iteration spent 491
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=492 Optimizer flat theta_mean 1169.9259100277134 best po 1206.877958365901 iteration spent 492
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=493 Optimizer flat theta_mean 1103.2973733003591 best po 1180.246501716414 iteration spent 493
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=494 Optimizer flat theta_mean 1190.8246718913551 best po 1200.0965688851775 iteration spent 494
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=495 Optimizer flat theta_mean 1135.7267539628276 best po 1192.315585382829 iteration spent 495
+INFO:poet_distributed.logger:{'accept_theta_in_flat': 'self',
+ 'episodes_so_far_flat': 126976,
+ 'episodes_this_step_flat': 256,
+ 'eval_len_mean_flat': 1999.0,
+ 'eval_len_std_flat': 0.0,
+ 'eval_n_episodes_flat': 5,
+ 'eval_returns_mean_best_in_flat': None,
+ 'eval_returns_mean_best_with_ckpt_in_flat': None,
+ 'eval_returns_mean_flat': 1135.7267539628276,
+ 'eval_returns_mean_proposal_from_others_in_flat': None,
+ 'eval_returns_mean_theta_from_others_in_flat': None,
+ 'eval_returns_median_flat': 1135.7267539628276,
+ 'eval_returns_std_flat': 0.0,
+ 'grad_norm_flat': 17089.73828125,
+ 'iteration': 495,
+ 'learning_rate_flat': 0.009516076322318223,
+ 'noise_std_flat': 0.012176210731578277,
+ 'po_len_mean_flat': 1999.0,
+ 'po_len_std_flat': 0.0,
+ 'po_returns_max_flat': 1192.315585382829,
+ 'po_returns_mean_flat': -466.9551942904895,
+ 'po_returns_median_flat': 1045.5250430279943,
+ 'po_returns_min_flat': -11308.10903181207,
+ 'po_returns_std_flat': 3897.4083424862397,
+ 'theta_norm_flat': 307.5369330723162,
+ 'time_elapsed_so_far': 52072.32335662842,
+ 'time_elapsed_this_step_flat': 101.32876443862915,
+ 'timesteps_so_far_flat': 507650012,
+ 'timesteps_this_step_flat': 1023488,
+ 'update_ratio_flat': 0.010155521316508286}
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=496 Optimizer flat theta_mean 1154.8175542316765 best po 1182.54184894727 iteration spent 496
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=497 Optimizer flat theta_mean 1140.645274522786 best po 1182.3089045960442 iteration spent 497
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=498 Optimizer flat theta_mean 1133.4294728544876 best po 1183.154778862713 iteration spent 498
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=499 Optimizer flat theta_mean 1174.3783631403053 best po 1206.1337367218648 iteration spent 499
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=500 Optimizer flat theta_mean 1151.3900693792305 best po 1182.4583367607486 iteration spent 500
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=501 Optimizer flat theta_mean 1144.0883081185261 best po 1212.8119364769439 iteration spent 501
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=502 Optimizer flat theta_mean 1121.9750506713228 best po 1188.8232313649578 iteration spent 502
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=503 Optimizer flat theta_mean 1131.7615692696052 best po 1188.985356109702 iteration spent 503
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=504 Optimizer flat theta_mean 1175.1775340260833 best po 1168.5300071904394 iteration spent 504
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=505 Optimizer flat theta_mean 1193.7294633705615 best po 1166.1718681396562 iteration spent 505
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=506 Optimizer flat theta_mean 1013.1959197608787 best po 1186.7425890364175 iteration spent 506
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=507 Optimizer flat theta_mean 1194.448860018088 best po 1204.094863257163 iteration spent 507
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=508 Optimizer flat theta_mean 1130.3302899793082 best po 1204.370876652781 iteration spent 508
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=509 Optimizer flat theta_mean 1134.5331393361173 best po 1225.636829307304 iteration spent 509
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=510 Optimizer flat theta_mean 1136.67060305168 best po 1181.232144961318 iteration spent 510
+INFO:poet_distributed.logger:{'accept_theta_in_flat': 'self',
+ 'episodes_so_far_flat': 130816,
+ 'episodes_this_step_flat': 256,
+ 'eval_len_mean_flat': 1999.0,
+ 'eval_len_std_flat': 0.0,
+ 'eval_n_episodes_flat': 5,
+ 'eval_returns_mean_best_in_flat': None,
+ 'eval_returns_mean_best_with_ckpt_in_flat': None,
+ 'eval_returns_mean_flat': 1136.67060305168,
+ 'eval_returns_mean_proposal_from_others_in_flat': None,
+ 'eval_returns_mean_theta_from_others_in_flat': None,
+ 'eval_returns_median_flat': 1136.67060305168,
+ 'eval_returns_std_flat': 0.0,
+ 'grad_norm_flat': 17285.12890625,
+ 'iteration': 510,
+ 'learning_rate_flat': 0.009501812195386369,
+ 'noise_std_flat': 0.011994840549139556,
+ 'po_len_mean_flat': 1999.0,
+ 'po_len_std_flat': 0.0,
+ 'po_returns_max_flat': 1181.232144961318,
+ 'po_returns_mean_flat': -603.8865525938265,
+ 'po_returns_median_flat': 1033.5326575507918,
+ 'po_returns_min_flat': -11705.54706142823,
+ 'po_returns_std_flat': 4078.7327068543404,
+ 'theta_norm_flat': 317.5639290079828,
+ 'time_elapsed_so_far': 53631.049698352814,
+ 'time_elapsed_this_step_flat': 102.6693902015686,
+ 'timesteps_so_far_flat': 523002332,
+ 'timesteps_this_step_flat': 1023488,
+ 'update_ratio_flat': 0.010129847466662208}
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=511 Optimizer flat theta_mean 1128.2977178505264 best po 1202.5474000549264 iteration spent 511
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=512 Optimizer flat theta_mean 1116.0518754528462 best po 1192.0536927651672 iteration spent 512
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=513 Optimizer flat theta_mean 1181.408595195418 best po 1181.213825462336 iteration spent 513
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=514 Optimizer flat theta_mean 1165.1517550902615 best po 1216.4091224193746 iteration spent 514
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=515 Optimizer flat theta_mean 1151.402431914335 best po 1209.847602671368 iteration spent 515
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=516 Optimizer flat theta_mean 1140.8961639336337 best po 1215.344107038022 iteration spent 516
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=517 Optimizer flat theta_mean 1152.914555543415 best po 1195.7833313769052 iteration spent 517
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=518 Optimizer flat theta_mean 1167.1418580752663 best po 1227.2824783788626 iteration spent 518
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=519 Optimizer flat theta_mean 1183.0452096611914 best po 1191.5343697702667 iteration spent 519
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=520 Optimizer flat theta_mean 1164.744077415733 best po 1202.4155970419229 iteration spent 520
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=521 Optimizer flat theta_mean 1151.4228804170268 best po 1203.7560086386113 iteration spent 521
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=522 Optimizer flat theta_mean 1140.9439894140123 best po 1215.511549011572 iteration spent 522
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=523 Optimizer flat theta_mean 1187.4362438259088 best po 1201.6683820258963 iteration spent 523
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=524 Optimizer flat theta_mean 1184.6599633087562 best po 1208.064950278183 iteration spent 524
+INFO:poet_distributed.poet_algo:health_check
+INFO:poet_distributed.poet_algo:niche flat created at 0 start_score -68.21135441738639 current_self_evals 1184.6599633087562
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=525 Optimizer flat theta_mean 1188.9345979507345 best po 1215.9882103389225 iteration spent 525
+INFO:poet_distributed.logger:{'accept_theta_in_flat': 'self',
+ 'episodes_so_far_flat': 134656,
+ 'episodes_this_step_flat': 256,
+ 'eval_len_mean_flat': 1999.0,
+ 'eval_len_std_flat': 0.0,
+ 'eval_n_episodes_flat': 5,
+ 'eval_returns_mean_best_in_flat': None,
+ 'eval_returns_mean_best_with_ckpt_in_flat': None,
+ 'eval_returns_mean_flat': 1188.9345979507345,
+ 'eval_returns_mean_proposal_from_others_in_flat': None,
+ 'eval_returns_mean_theta_from_others_in_flat': None,
+ 'eval_returns_median_flat': 1188.9345979507345,
+ 'eval_returns_std_flat': 0.0,
+ 'grad_norm_flat': 15506.6474609375,
+ 'iteration': 525,
+ 'learning_rate_flat': 0.00948756944967407,
+ 'noise_std_flat': 0.01181617195784467,
+ 'po_len_mean_flat': 1999.0,
+ 'po_len_std_flat': 0.0,
+ 'po_returns_max_flat': 1215.9882103389225,
+ 'po_returns_mean_flat': -560.4390932041424,
+ 'po_returns_median_flat': 1057.8528717118704,
+ 'po_returns_min_flat': -12237.239423809673,
+ 'po_returns_std_flat': 4065.1578124691546,
+ 'theta_norm_flat': 326.12030096318153,
+ 'time_elapsed_so_far': 55211.004219293594,
+ 'time_elapsed_this_step_flat': 103.84929776191711,
+ 'timesteps_so_far_flat': 538354652,
+ 'timesteps_this_step_flat': 1023488,
+ 'update_ratio_flat': 0.009867428555848204}
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=526 Optimizer flat theta_mean 1225.121645521164 best po 1205.4738175448344 iteration spent 526
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=527 Optimizer flat theta_mean 1163.2425854141807 best po 1216.8503146716243 iteration spent 527
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=528 Optimizer flat theta_mean 1157.3073588481593 best po 1200.3137316518182 iteration spent 528
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=529 Optimizer flat theta_mean 1137.3880546391242 best po 1202.6973647842563 iteration spent 529
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=530 Optimizer flat theta_mean 1168.982461110621 best po 1187.7060743210222 iteration spent 530
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=531 Optimizer flat theta_mean 1175.4633642231406 best po 1198.7211479423822 iteration spent 531
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=532 Optimizer flat theta_mean 1136.9353030451425 best po 1187.8277878852427 iteration spent 532
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=533 Optimizer flat theta_mean 1119.3270337122872 best po 1214.0314810067284 iteration spent 533
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=534 Optimizer flat theta_mean 1123.141879610641 best po 1201.5989277167453 iteration spent 534
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=535 Optimizer flat theta_mean 1160.500857553553 best po 1201.675086155447 iteration spent 535
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=536 Optimizer flat theta_mean 1230.1950058794 best po 1191.757855110979 iteration spent 536
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=537 Optimizer flat theta_mean 1167.5587652003949 best po 1195.2957463688751 iteration spent 537
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=538 Optimizer flat theta_mean 1201.7083868929044 best po 1219.2924034608036 iteration spent 538
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=539 Optimizer flat theta_mean 1179.4383049048508 best po 1236.9617916950544 iteration spent 539
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=540 Optimizer flat theta_mean 1177.3880933678638 best po 1236.9704594900684 iteration spent 540
+INFO:poet_distributed.logger:{'accept_theta_in_flat': 'self',
+ 'episodes_so_far_flat': 138496,
+ 'episodes_this_step_flat': 256,
+ 'eval_len_mean_flat': 1999.0,
+ 'eval_len_std_flat': 0.0,
+ 'eval_n_episodes_flat': 5,
+ 'eval_returns_mean_best_in_flat': None,
+ 'eval_returns_mean_best_with_ckpt_in_flat': None,
+ 'eval_returns_mean_flat': 1177.3880933678638,
+ 'eval_returns_mean_proposal_from_others_in_flat': None,
+ 'eval_returns_mean_theta_from_others_in_flat': None,
+ 'eval_returns_median_flat': 1177.3880933678638,
+ 'eval_returns_std_flat': 0.0,
+ 'grad_norm_flat': 20623.0859375,
+ 'iteration': 540,
+ 'learning_rate_flat': 0.009473348053131932,
+ 'noise_std_flat': 0.011640164716267982,
+ 'po_len_mean_flat': 1999.0,
+ 'po_len_std_flat': 0.0,
+ 'po_returns_max_flat': 1236.9704594900684,
+ 'po_returns_mean_flat': -396.41723779966196,
+ 'po_returns_median_flat': 1070.184850609463,
+ 'po_returns_min_flat': -11869.200274509585,
+ 'po_returns_std_flat': 3829.327560806873,
+ 'theta_norm_flat': 334.63916700261507,
+ 'time_elapsed_so_far': 56778.17126131058,
+ 'time_elapsed_this_step_flat': 106.46137428283691,
+ 'timesteps_so_far_flat': 553706972,
+ 'timesteps_this_step_flat': 1023488,
+ 'update_ratio_flat': 0.010208768719960118}
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=541 Optimizer flat theta_mean 1240.1616404341314 best po 1245.5545002120296 iteration spent 541
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=542 Optimizer flat theta_mean 1175.5632640472263 best po 1201.5119257169488 iteration spent 542
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=543 Optimizer flat theta_mean 1199.4989972786548 best po 1216.324542788372 iteration spent 543
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=544 Optimizer flat theta_mean 1167.1223467110203 best po 1199.816320263561 iteration spent 544
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=545 Optimizer flat theta_mean 1212.310741879578 best po 1241.8071542674154 iteration spent 545
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=546 Optimizer flat theta_mean 1202.6606029897587 best po 1204.110828466126 iteration spent 546
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=547 Optimizer flat theta_mean 1193.8979030111993 best po 1236.70054679833 iteration spent 547
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=548 Optimizer flat theta_mean 1228.7923104393487 best po 1257.5040967007785 iteration spent 548
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=549 Optimizer flat theta_mean 1215.7119014986745 best po 1256.831495334187 iteration spent 549
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=550 Optimizer flat theta_mean 1233.9396889111756 best po 1236.0237281975644 iteration spent 550
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=551 Optimizer flat theta_mean 1207.7413089726801 best po 1240.131931579504 iteration spent 551
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=552 Optimizer flat theta_mean 1189.796862856973 best po 1230.8597491239534 iteration spent 552
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=553 Optimizer flat theta_mean 1170.2223380843511 best po 1215.570516415681 iteration spent 553
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=554 Optimizer flat theta_mean 1142.9695353194334 best po 1232.0489540755004 iteration spent 554
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=555 Optimizer flat theta_mean 1194.3791343920982 best po 1230.6255126144517 iteration spent 555
+INFO:poet_distributed.logger:{'accept_theta_in_flat': 'self',
+ 'episodes_so_far_flat': 142336,
+ 'episodes_this_step_flat': 256,
+ 'eval_len_mean_flat': 1999.0,
+ 'eval_len_std_flat': 0.0,
+ 'eval_n_episodes_flat': 5,
+ 'eval_returns_mean_best_in_flat': None,
+ 'eval_returns_mean_best_with_ckpt_in_flat': None,
+ 'eval_returns_mean_flat': 1194.3791343920982,
+ 'eval_returns_mean_proposal_from_others_in_flat': None,
+ 'eval_returns_mean_theta_from_others_in_flat': None,
+ 'eval_returns_median_flat': 1194.3791343920982,
+ 'eval_returns_std_flat': 0.0,
+ 'grad_norm_flat': 23793.94140625,
+ 'iteration': 555,
+ 'learning_rate_flat': 0.00945914797375861,
+ 'noise_std_flat': 0.011466779182398155,
+ 'po_len_mean_flat': 1999.0,
+ 'po_len_std_flat': 0.0,
+ 'po_returns_max_flat': 1230.6255126144517,
+ 'po_returns_mean_flat': -435.0123835739828,
+ 'po_returns_median_flat': 1078.7043762016865,
+ 'po_returns_min_flat': -11803.016631802373,
+ 'po_returns_std_flat': 3902.6523405371718,
+ 'theta_norm_flat': 343.2312903906702,
+ 'time_elapsed_so_far': 58343.4131193161,
+ 'time_elapsed_this_step_flat': 102.17347073554993,
+ 'timesteps_so_far_flat': 569059292,
+ 'timesteps_this_step_flat': 1023488,
+ 'update_ratio_flat': 0.009996800113347127}
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=556 Optimizer flat theta_mean 1215.3440510877492 best po 1255.279848145368 iteration spent 556
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=557 Optimizer flat theta_mean 1091.0706642702132 best po 1232.7894834266842 iteration spent 557
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=558 Optimizer flat theta_mean 1169.2292536902678 best po 1248.492391225783 iteration spent 558
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=559 Optimizer flat theta_mean 1171.0784043680956 best po 1240.2380876211757 iteration spent 559
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=560 Optimizer flat theta_mean 1206.8348793379298 best po 1233.6677663473179 iteration spent 560
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=561 Optimizer flat theta_mean 1142.7272450243786 best po 1233.4188915496838 iteration spent 561
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=562 Optimizer flat theta_mean 1182.972438688914 best po 1230.4873569346873 iteration spent 562
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=563 Optimizer flat theta_mean 1173.210920085726 best po 1248.7060450296503 iteration spent 563
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=564 Optimizer flat theta_mean 1054.7664646229953 best po 1230.611896522714 iteration spent 564
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=565 Optimizer flat theta_mean 1022.168486011385 best po 1217.3154867609462 iteration spent 565
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=566 Optimizer flat theta_mean -1815.0721155684816 best po 1230.3842581920064 iteration spent 566
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=567 Optimizer flat theta_mean 891.6710768712044 best po 1240.1133573653663 iteration spent 567
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=568 Optimizer flat theta_mean 1196.1770763474344 best po 1212.8296488857022 iteration spent 568
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=569 Optimizer flat theta_mean 944.2314604390147 best po 1200.5182335931772 iteration spent 569
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=570 Optimizer flat theta_mean 990.4793385449004 best po 1229.081774580218 iteration spent 570
+INFO:poet_distributed.logger:{'accept_theta_in_flat': 'self',
+ 'episodes_so_far_flat': 146176,
+ 'episodes_this_step_flat': 256,
+ 'eval_len_mean_flat': 1999.0,
+ 'eval_len_std_flat': 0.0,
+ 'eval_n_episodes_flat': 5,
+ 'eval_returns_mean_best_in_flat': None,
+ 'eval_returns_mean_best_with_ckpt_in_flat': None,
+ 'eval_returns_mean_flat': 990.4793385449004,
+ 'eval_returns_mean_proposal_from_others_in_flat': None,
+ 'eval_returns_mean_theta_from_others_in_flat': None,
+ 'eval_returns_median_flat': 990.4793385449003,
+ 'eval_returns_std_flat': 1.1368683772161603e-13,
+ 'grad_norm_flat': 21439.080078125,
+ 'iteration': 570,
+ 'learning_rate_flat': 0.009444969179600728,
+ 'noise_std_flat': 0.011295976304709585,
+ 'po_len_mean_flat': 1999.0,
+ 'po_len_std_flat': 0.0,
+ 'po_returns_max_flat': 1229.081774580218,
+ 'po_returns_mean_flat': -674.5483601664432,
+ 'po_returns_median_flat': 1056.663213273423,
+ 'po_returns_min_flat': -11972.842715642017,
+ 'po_returns_std_flat': 4021.2043509121318,
+ 'theta_norm_flat': 352.46086866312817,
+ 'time_elapsed_so_far': 59892.0920920372,
+ 'time_elapsed_this_step_flat': 101.74414157867432,
+ 'timesteps_so_far_flat': 584411612,
+ 'timesteps_this_step_flat': 1023488,
+ 'update_ratio_flat': 0.010007440222366127}
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=571 Optimizer flat theta_mean 910.1444586603286 best po 1196.2583852990138 iteration spent 571
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=572 Optimizer flat theta_mean 1049.566554050754 best po 1217.6644955353054 iteration spent 572
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=573 Optimizer flat theta_mean 714.0179832208637 best po 1198.7333373232027 iteration spent 573
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=574 Optimizer flat theta_mean 1011.3060193711101 best po 1188.9144223664114 iteration spent 574
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=575 Optimizer flat theta_mean 1112.4500554109802 best po 1204.301468658635 iteration spent 575
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=576 Optimizer flat theta_mean 1169.6402307162666 best po 1192.2118923159617 iteration spent 576
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=577 Optimizer flat theta_mean 1159.8649442852386 best po 1190.0419321206336 iteration spent 577
+compute_center_ranks starts
+start_theta_eval
+get_theta_eval starts
+INFO:poet_distributed.poet_algo:Iter=578 Optimizer flat theta_mean 1113.8214921484623 best po 1207.3011603165353 iteration spent 578
+slurmstepd: error: *** JOB 84376 ON zirconium CANCELLED AT 2021-08-08T09:51:54 ***
