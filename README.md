@@ -43,8 +43,9 @@ python evaluate_rl_models.py   #evaluate the trained models of PPO, SAC, VMPO
 
 ## References
 [1] Rui Wang, Joel Lehman, Jeff Clune, and Kenneth O. Stanley. Paired open-ended trailblazer (POET): endlessly generating increasingly complex and diverse learning environments and their solutions. CoRR, abs/1901.01753, 2019. 
-[2] Rui Wang, Joel Lehman, Aditya Rawal, Jiale Zhi, Yulun Li, Jeff Clune, and Kenneth O. Stanley. Enhanced POET: Open-Ended Reinforcement Learning through Unbounded Invention of Learning Challenges and their Solutions, 2020.
-https://github.com/uber-research/poet 
-[3] Teymur Azayev and Karel Zimmerman. Blind Hexapod Locomotion in Complex Terrain with Gait Adaptation Using Deep Reinforcement Learning and Classification. Journal of Intelligent Robotic Systems, 99, 09 2020.
-https://github.com/silverjoda/nexabots 
+
+[2] Rui Wang, Joel Lehman, Aditya Rawal, Jiale Zhi, Yulun Li, Jeff Clune, and Kenneth O. Stanley. Enhanced POET: Open-Ended Reinforcement Learning through Unbounded Invention of Learning Challenges and their Solutions, 2020. https://github.com/uber-research/poet 
+
+[3] Teymur Azayev and Karel Zimmerman. Blind Hexapod Locomotion in Complex Terrain with Gait Adaptation Using Deep Reinforcement Learning and Classification. Journal of Intelligent Robotic Systems, 99, 09 2020. https://github.com/silverjoda/nexabots 
+
 [4] Rchal Yang. Pytorch implementation of reinforcement learning methods. https://github.com/RchalYang/torchrl
