@@ -1,3 +1,4 @@
 fiber
 neat-python
 gym[box2d]
+pytorch
